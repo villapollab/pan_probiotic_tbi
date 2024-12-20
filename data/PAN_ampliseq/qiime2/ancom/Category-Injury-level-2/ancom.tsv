@@ -1,0 +1,8 @@
+	W	Reject null hypothesis
+Bacteria;Proteobacteria	1	True
+;	1	True
+Bacteria;Bacteroidota	0	True
+Bacteria;Firmicutes	0	True
+Bacteria;Actinobacteriota	0	True
+Bacteria;	0	True
+Bacteria;Verrucomicrobiota	0	True

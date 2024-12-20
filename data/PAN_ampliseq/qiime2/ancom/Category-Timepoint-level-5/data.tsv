@@ -1,0 +1,46 @@
+id	clr	W
+;;;;	-0.0372822640638697	7
+Bacteria;;;;	0.16630895380004118	2
+Bacteria;Actinobacteriota;Actinobacteria;Bifidobacteriales;Bifidobacteriaceae	0.24055453673676275	4
+Bacteria;Actinobacteriota;Coriobacteriia;Coriobacteriales;Atopobiaceae	-1.4720949965513062	42
+Bacteria;Actinobacteriota;Coriobacteriia;Coriobacteriales;Coriobacteriales Incertae Sedis	-0.009682611460174684	7
+Bacteria;Actinobacteriota;Coriobacteriia;Coriobacteriales;Eggerthellaceae	-0.11112646442387564	7
+Bacteria;Bacteroidota;Bacteroidia;;	-0.030291486337866935	7
+Bacteria;Bacteroidota;Bacteroidia;Bacteroidales;	-0.27339607030150237	7
+Bacteria;Bacteroidota;Bacteroidia;Bacteroidales;Bacteroidaceae	-0.07318134361740292	7
+Bacteria;Bacteroidota;Bacteroidia;Bacteroidales;Muribaculaceae	-0.487142433601333	30
+Bacteria;Bacteroidota;Bacteroidia;Bacteroidales;Rikenellaceae	-0.10001516450093728	7
+Bacteria;Firmicutes;;;	-0.1874819390740523	6
+Bacteria;Firmicutes;Bacilli;;	0.016011841943633254	6
+Bacteria;Firmicutes;Bacilli;Acholeplasmatales;Acholeplasmataceae	-0.19299523425251275	1
+Bacteria;Firmicutes;Bacilli;Bacillales;Planococcaceae	0.09772125360863315	7
+Bacteria;Firmicutes;Bacilli;Erysipelotrichales;	-0.030696598658474628	7
+Bacteria;Firmicutes;Bacilli;Erysipelotrichales;Erysipelatoclostridiaceae	0.012070240747366123	3
+Bacteria;Firmicutes;Bacilli;Erysipelotrichales;Erysipelotrichaceae	-0.26312142708433406	6
+Bacteria;Firmicutes;Bacilli;Lactobacillales;	-0.029970442419495313	7
+Bacteria;Firmicutes;Bacilli;Lactobacillales;Carnobacteriaceae	0.2058656378863164	4
+Bacteria;Firmicutes;Bacilli;Lactobacillales;Enterococcaceae	-0.09878392473261188	7
+Bacteria;Firmicutes;Bacilli;Lactobacillales;Lactobacillaceae	0.5885575399191278	20
+Bacteria;Firmicutes;Bacilli;RF39;	-0.026901399700628437	3
+Bacteria;Firmicutes;Bacilli;Staphylococcales;Staphylococcaceae	0.9392791597104508	31
+Bacteria;Firmicutes;Clostridia;;	0.0098501487422884	6
+Bacteria;Firmicutes;Clostridia;Christensenellales;Christensenellaceae	-1.1076434488223295	42
+Bacteria;Firmicutes;Clostridia;Clostridia UCG-014;	0.1331623617170976	4
+Bacteria;Firmicutes;Clostridia;Clostridia vadinBB60 group;	-0.19157809032845385	6
+Bacteria;Firmicutes;Clostridia;Clostridiales;Clostridiaceae	-0.5771397712341519	3
+Bacteria;Firmicutes;Clostridia;Eubacteriales;Anaerofustaceae	-0.06967018540215086	7
+Bacteria;Firmicutes;Clostridia;Lachnospirales;	-0.029970442419495313	7
+Bacteria;Firmicutes;Clostridia;Lachnospirales;Defluviitaleaceae	0.28507450305256454	4
+Bacteria;Firmicutes;Clostridia;Lachnospirales;Lachnospiraceae	0.004996231277496932	6
+Bacteria;Firmicutes;Clostridia;Monoglobales;Monoglobaceae	0.7901356753571704	31
+Bacteria;Firmicutes;Clostridia;Oscillospirales;	-0.03565663439040234	7
+Bacteria;Firmicutes;Clostridia;Oscillospirales;Butyricicoccaceae	0.045051104143451065	6
+Bacteria;Firmicutes;Clostridia;Oscillospirales;Oscillospiraceae	-0.011280081042915668	6
+Bacteria;Firmicutes;Clostridia;Oscillospirales;Ruminococcaceae	-0.04285229929310841	6
+Bacteria;Firmicutes;Clostridia;Oscillospirales;UCG-010	-0.1458317621733386	5
+Bacteria;Firmicutes;Clostridia;Oscillospirales;[Eubacterium] coprostanoligenes group	0.24843558372302282	2
+Bacteria;Firmicutes;Clostridia;Peptococcales;Peptococcaceae	-0.12618017666807257	5
+Bacteria;Firmicutes;Clostridia;Peptostreptococcales-Tissierellales;Anaerovoracaceae	0.1199668952734117	5
+Bacteria;Firmicutes;Clostridia;Peptostreptococcales-Tissierellales;Peptostreptococcaceae	0.2072158514767477	1
+Bacteria;Proteobacteria;Gammaproteobacteria;Burkholderiales;Sutterellaceae	1.2059796862344252	39
+Bacteria;Verrucomicrobiota;Verrucomicrobiae;Verrucomicrobiales;Akkermansiaceae	0.44572948720477656	3

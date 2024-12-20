@@ -1,0 +1,12 @@
+Percentile	0.0	25.0	50.0	75.0	100.0	0.0	25.0	50.0	75.0	100.0
+Group	CCI	CCI	CCI	CCI	CCI	Sham	Sham	Sham	Sham	Sham
+Bacteria;Bacteroidota;Bacteroidia	1087.0	2719.0	3513.0	4321.0	7152.0	1958.0	3106.0	3932.5	5351.75	9037.0
+Bacteria;Firmicutes;Bacilli	4447.0	9032.0	10364.0	11814.0	16755.0	1790.0	8211.5	9648.0	12262.0	17466.0
+Bacteria;Firmicutes;Clostridia	1453.0	3495.0	4351.0	5748.0	12628.0	1569.0	3347.75	6522.0	8101.5	11792.0
+Bacteria;Actinobacteriota;Coriobacteriia	18.0	59.0	85.0	108.0	827.0	38.0	86.75	106.5	181.75	638.0
+Bacteria;;	1.0	1.0	6.0	18.0	73.0	1.0	4.75	9.5	39.5	106.0
+Bacteria;Verrucomicrobiota;Verrucomicrobiae	1.0	104.0	251.0	504.0	963.0	1.0	92.75	276.5	522.5	996.0
+Bacteria;Firmicutes;	1.0	1.0	1.0	2.0	34.0	1.0	1.0	1.0	2.0	53.0
+Bacteria;Proteobacteria;Gammaproteobacteria	1.0	8.0	27.0	57.0	209.0	1.0	25.0	45.5	90.25	245.0
+Bacteria;Actinobacteriota;Actinobacteria	11.0	65.0	107.0	160.0	410.0	1.0	21.75	92.0	133.5	618.0
+;;	1.0	1.0	1.0	1.0	3.0	1.0	1.0	1.0	1.0	3.0

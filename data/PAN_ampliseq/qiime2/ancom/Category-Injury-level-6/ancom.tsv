@@ -1,0 +1,99 @@
+	W	Reject null hypothesis
+Bacteria;Firmicutes;Bacilli;Erysipelotrichales;Erysipelotrichaceae;Ileibacterium	93	True
+Bacteria;Firmicutes;Bacilli;Erysipelotrichales;Erysipelotrichaceae;Dubosiella	85	True
+Bacteria;Actinobacteriota;Coriobacteriia;Coriobacteriales;Atopobiaceae;Coriobacteriaceae UCG-002	78	False
+Bacteria;Firmicutes;Bacilli;Erysipelotrichales;Erysipelotrichaceae;Turicibacter	54	False
+Bacteria;Bacteroidota;Bacteroidia;Bacteroidales;Muribaculaceae;	17	False
+Bacteria;Firmicutes;Clostridia;Oscillospirales;[Eubacterium] coprostanoligenes group;	16	False
+Bacteria;Firmicutes;Clostridia;Lachnospirales;Lachnospiraceae;Tuzzerella	16	False
+Bacteria;Actinobacteriota;Actinobacteria;Bifidobacteriales;Bifidobacteriaceae;Bifidobacterium	10	False
+Bacteria;Actinobacteriota;Coriobacteriia;Coriobacteriales;Eggerthellaceae;	7	False
+Bacteria;Firmicutes;Clostridia;Oscillospirales;Ruminococcaceae;Paludicola	6	False
+Bacteria;Bacteroidota;Bacteroidia;Bacteroidales;Muribaculaceae;Muribaculum	6	False
+Bacteria;Firmicutes;Clostridia;Eubacteriales;Anaerofustaceae;Anaerofustis	6	False
+Bacteria;Firmicutes;Clostridia;Lachnospirales;Lachnospiraceae;	6	False
+Bacteria;Actinobacteriota;Coriobacteriia;Coriobacteriales;Coriobacteriales Incertae Sedis;	6	False
+Bacteria;Bacteroidota;Bacteroidia;Bacteroidales;;	5	False
+Bacteria;Actinobacteriota;Coriobacteriia;Coriobacteriales;Eggerthellaceae;Asaccharobacter	5	False
+Bacteria;Firmicutes;Clostridia;Lachnospirales;Lachnospiraceae;Lachnospiraceae UCG-008	5	False
+Bacteria;Firmicutes;Clostridia;Lachnospirales;Lachnospiraceae;ASF356	5	False
+Bacteria;Firmicutes;Clostridia;Oscillospirales;Oscillospiraceae;UCG-003	5	False
+Bacteria;Firmicutes;Bacilli;Erysipelotrichales;Erysipelatoclostridiaceae;Candidatus Stoquefichus	5	False
+Bacteria;Firmicutes;Clostridia;Lachnospirales;Lachnospiraceae;Acetitomaculum	5	False
+Bacteria;Bacteroidota;Bacteroidia;;;	5	False
+Bacteria;Firmicutes;Clostridia;Lachnospirales;Lachnospiraceae;[Ruminococcus] gauvreauii group	5	False
+Bacteria;Firmicutes;Clostridia;Lachnospirales;Lachnospiraceae;Acetatifactor	5	False
+Bacteria;Firmicutes;Clostridia;Oscillospirales;Oscillospiraceae;Colidextribacter	5	False
+Bacteria;Firmicutes;Clostridia;Oscillospirales;Oscillospiraceae;Oscillibacter	5	False
+Bacteria;Firmicutes;Bacilli;Lactobacillales;Lactobacillaceae;Lactobacillus	5	False
+Bacteria;Firmicutes;Clostridia;Oscillospirales;Oscillospiraceae;	5	False
+;;;;;	4	False
+Bacteria;Firmicutes;Clostridia;Lachnospirales;Lachnospiraceae;[Eubacterium] oxidoreducens group	4	False
+Bacteria;Firmicutes;Bacilli;Lactobacillales;Enterococcaceae;Enterococcus	4	False
+Bacteria;Firmicutes;Clostridia;Peptostreptococcales-Tissierellales;Anaerovoracaceae;Family XIII UCG-001	4	False
+Bacteria;Firmicutes;Clostridia;Oscillospirales;Ruminococcaceae;Candidatus Soleaferrea	4	False
+Bacteria;Firmicutes;Clostridia;Peptostreptococcales-Tissierellales;Peptostreptococcaceae;	4	False
+Bacteria;Firmicutes;Clostridia;Peptococcales;Peptococcaceae;	4	False
+Bacteria;Proteobacteria;Gammaproteobacteria;Burkholderiales;Sutterellaceae;Parasutterella	4	False
+Bacteria;Firmicutes;Clostridia;Peptostreptococcales-Tissierellales;Anaerovoracaceae;[Eubacterium] brachy group	4	False
+Bacteria;Actinobacteriota;Coriobacteriia;Coriobacteriales;Eggerthellaceae;Enterorhabdus	4	False
+Bacteria;Firmicutes;Clostridia;Lachnospirales;Lachnospiraceae;Lachnospiraceae NK4A136 group	4	False
+Bacteria;Bacteroidota;Bacteroidia;Bacteroidales;Bacteroidaceae;Bacteroides	4	False
+Bacteria;Firmicutes;Clostridia;Lachnospirales;Lachnospiraceae;Roseburia	4	False
+Bacteria;Firmicutes;Clostridia;;;	4	False
+Bacteria;Firmicutes;Clostridia;Oscillospirales;;	4	False
+Bacteria;Firmicutes;Bacilli;Erysipelotrichales;;	4	False
+Bacteria;Firmicutes;Clostridia;Oscillospirales;Butyricicoccaceae;Butyricicoccus	4	False
+Bacteria;Firmicutes;Clostridia;Clostridiales;Clostridiaceae;	4	False
+Bacteria;Actinobacteriota;Coriobacteriia;Coriobacteriales;Eggerthellaceae;Parvibacter	4	False
+Bacteria;Firmicutes;Bacilli;Lactobacillales;;	4	False
+Bacteria;Firmicutes;Clostridia;Lachnospirales;;	4	False
+Bacteria;Firmicutes;Clostridia;Lachnospirales;Lachnospiraceae;Lachnospiraceae UCG-006	3	False
+Bacteria;Firmicutes;Clostridia;Lachnospirales;Lachnospiraceae;Dorea	3	False
+Bacteria;Firmicutes;Bacilli;Bacillales;Planococcaceae;Sporosarcina	3	False
+Bacteria;Firmicutes;Clostridia;Oscillospirales;Oscillospiraceae;NK4A214 group	3	False
+Bacteria;Firmicutes;Clostridia;Lachnospirales;Defluviitaleaceae;Defluviitaleaceae UCG-011	3	False
+Bacteria;Firmicutes;Clostridia;Oscillospirales;Oscillospiraceae;UCG-005	3	False
+Bacteria;Firmicutes;Clostridia;Oscillospirales;Butyricicoccaceae;UCG-009	3	False
+Bacteria;Firmicutes;Bacilli;Lactobacillales;Carnobacteriaceae;Atopostipes	3	False
+Bacteria;Firmicutes;Clostridia;Oscillospirales;Ruminococcaceae;Anaerotruncus	3	False
+Bacteria;Firmicutes;Clostridia;Oscillospirales;UCG-010;	3	False
+Bacteria;Firmicutes;Clostridia;Clostridia UCG-014;;	3	False
+Bacteria;Firmicutes;Clostridia;Christensenellales;Christensenellaceae;	3	False
+Bacteria;Firmicutes;Bacilli;Erysipelotrichales;Erysipelatoclostridiaceae;	3	False
+Bacteria;Bacteroidota;Bacteroidia;Bacteroidales;Rikenellaceae;Alistipes	3	False
+Bacteria;Verrucomicrobiota;Verrucomicrobiae;Verrucomicrobiales;Akkermansiaceae;Akkermansia	3	False
+Bacteria;Firmicutes;;;;	3	False
+Bacteria;Firmicutes;Clostridia;Oscillospirales;Ruminococcaceae;Incertae Sedis	3	False
+Bacteria;Firmicutes;Bacilli;;;	3	False
+Bacteria;Firmicutes;Clostridia;Lachnospirales;Lachnospiraceae;[Eubacterium] xylanophilum group	2	False
+Bacteria;;;;;	2	False
+Bacteria;Firmicutes;Clostridia;Oscillospirales;Oscillospiraceae;Intestinimonas	2	False
+Bacteria;Firmicutes;Clostridia;Clostridia vadinBB60 group;;	2	False
+Bacteria;Firmicutes;Clostridia;Monoglobales;Monoglobaceae;Monoglobus	2	False
+Bacteria;Firmicutes;Clostridia;Oscillospirales;Ruminococcaceae;Ruminococcus	2	False
+Bacteria;Firmicutes;Clostridia;Oscillospirales;Ruminococcaceae;Harryflintia	2	False
+Bacteria;Firmicutes;Clostridia;Lachnospirales;Lachnospiraceae;[Eubacterium] ventriosum group	2	False
+Bacteria;Firmicutes;Bacilli;Erysipelotrichales;Erysipelatoclostridiaceae;Erysipelatoclostridium	2	False
+Bacteria;Firmicutes;Clostridia;Lachnospirales;Lachnospiraceae;A2	2	False
+Bacteria;Firmicutes;Bacilli;RF39;;	2	False
+Bacteria;Firmicutes;Clostridia;Peptostreptococcales-Tissierellales;Anaerovoracaceae;[Eubacterium] nodatum group	2	False
+Bacteria;Firmicutes;Clostridia;Lachnospirales;Lachnospiraceae;GCA-900066575	2	False
+Bacteria;Firmicutes;Clostridia;Lachnospirales;Lachnospiraceae;Lachnospiraceae FCS020 group	2	False
+Bacteria;Firmicutes;Bacilli;Lactobacillales;Lactobacillaceae;	2	False
+Bacteria;Firmicutes;Clostridia;Peptostreptococcales-Tissierellales;Anaerovoracaceae;Family XIII AD3011 group	2	False
+Bacteria;Firmicutes;Clostridia;Oscillospirales;Ruminococcaceae;	2	False
+Bacteria;Firmicutes;Bacilli;Acholeplasmatales;Acholeplasmataceae;Anaeroplasma	2	False
+Bacteria;Firmicutes;Bacilli;Erysipelotrichales;Erysipelotrichaceae;	1	False
+Bacteria;Firmicutes;Bacilli;Lactobacillales;Lactobacillaceae;HT002	1	False
+Bacteria;Firmicutes;Bacilli;Lactobacillales;Lactobacillaceae;Limosilactobacillus	1	False
+Bacteria;Firmicutes;Clostridia;Lachnospirales;Lachnospiraceae;Blautia	1	False
+Bacteria;Firmicutes;Clostridia;Clostridiales;Clostridiaceae;Clostridium sensu stricto 1	1	False
+Bacteria;Firmicutes;Bacilli;Staphylococcales;Staphylococcaceae;Staphylococcus	1	False
+Bacteria;Firmicutes;Bacilli;Lactobacillales;Lactobacillaceae;Lacticaseibacillus	1	False
+Bacteria;Firmicutes;Clostridia;Lachnospirales;Lachnospiraceae;Marvinbryantia	1	False
+Bacteria;Firmicutes;Bacilli;Lactobacillales;Lactobacillaceae;Lactiplantibacillus	1	False
+Bacteria;Firmicutes;Clostridia;Lachnospirales;Lachnospiraceae;Lachnospiraceae UCG-001	1	False
+Bacteria;Firmicutes;Clostridia;Lachnospirales;Lachnospiraceae;Lachnoclostridium	1	False
+Bacteria;Firmicutes;Bacilli;Erysipelotrichales;Erysipelotrichaceae;Faecalibaculum	0	False
+Bacteria;Firmicutes;Clostridia;Peptostreptococcales-Tissierellales;Peptostreptococcaceae;Romboutsia	0	False

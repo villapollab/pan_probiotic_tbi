@@ -1,0 +1,16 @@
+"",".sample_name","MouseID","Genotype","Sex","Injury","Treatment","Timepoint","Project","helveticus"
+"1","Villapol_264_B",264,"WT","F","CCI","Vehicle","Baseline","PAN",-2.00775050566132
+"2","Villapol_265_B",265,"WT","F","CCI","Vehicle","Baseline","PAN",-2.09354046046528
+"3","Villapol_266_B",266,"WT","F","CCI","Vehicle","Baseline","PAN",-1.62801066689032
+"4","Villapol_267_B",267,"WT","F","CCI","Vehicle","Baseline","PAN",-1.59207796918655
+"5","Villapol_268_B",268,"WT","F","CCI","Vehicle","Baseline","PAN",-1.83667689669342
+"6","Villapol_269_B",269,"WT","F","CCI","Vehicle","Baseline","PAN",-2.22587551097405
+"7","Villapol_270_B",270,"WT","F","CCI","Vehicle","Baseline","PAN",-2.27146761682101
+"8","Villapol_271_B",271,"WT","F","CCI","Vehicle","Baseline","PAN",-2.16405969596837
+"9","Villapol_272_B",272,"WT","F","CCI","Vehicle","Baseline","PAN",-2.12112931687826
+"10","Villapol_273_B",273,"WT","F","CCI","Vehicle","Baseline","PAN",-2.342370176437
+"11","Villapol_289_B",289,"WT","F","Sham","Vehicle","Baseline","PAN",-1.99405820061351
+"12","Villapol_290_B",290,"WT","F","Sham","Vehicle","Baseline","PAN",-1.72776027251669
+"13","Villapol_291_B",291,"WT","F","Sham","Vehicle","Baseline","PAN",-1.96892256041754
+"14","Villapol_292_B",292,"WT","F","Sham","Vehicle","Baseline","PAN",-2.17360057253018
+"15","Villapol_293_B",293,"WT","F","Sham","Vehicle","Baseline","PAN",-1.98587991191466

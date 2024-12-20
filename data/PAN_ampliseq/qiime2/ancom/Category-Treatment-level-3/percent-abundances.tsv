@@ -1,0 +1,12 @@
+Percentile	0.0	25.0	50.0	75.0	100.0	0.0	25.0	50.0	75.0	100.0
+Group	PAN	PAN	PAN	PAN	PAN	Vehicle	Vehicle	Vehicle	Vehicle	Vehicle
+Bacteria;Bacteroidota;Bacteroidia	1336.0	2945.25	3678.0	4550.75	6913.0	1087.0	2737.5	3398.0	4790.5	9037.0
+Bacteria;Firmicutes;Bacilli	3216.0	8897.0	10000.0	11247.5	14990.0	1790.0	8744.5	11135.0	13289.0	17466.0
+Bacteria;Firmicutes;Clostridia	1453.0	4058.5	5110.5	6750.25	11792.0	1569.0	2982.0	4239.0	6294.5	12628.0
+Bacteria;Actinobacteriota;Coriobacteriia	18.0	66.0	97.5	126.5	827.0	26.0	62.5	89.0	117.0	638.0
+Bacteria;;	1.0	3.25	10.0	21.25	92.0	1.0	1.0	6.0	22.0	106.0
+Bacteria;Verrucomicrobiota;Verrucomicrobiae	1.0	66.0	223.0	454.0	933.0	1.0	142.5	325.0	539.5	996.0
+Bacteria;Firmicutes;	1.0	1.0	1.0	2.0	5.0	1.0	1.0	1.0	1.0	53.0
+Bacteria;Proteobacteria;Gammaproteobacteria	1.0	20.0	37.0	58.5	245.0	1.0	8.0	32.0	78.5	209.0
+Bacteria;Actinobacteriota;Actinobacteria	1.0	51.25	82.0	139.75	618.0	3.0	66.5	112.0	166.5	410.0
+;;	1.0	1.0	1.0	1.0	3.0	1.0	1.0	1.0	1.0	1.0

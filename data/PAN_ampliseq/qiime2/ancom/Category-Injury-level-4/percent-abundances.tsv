@@ -1,0 +1,29 @@
+Percentile	0.0	25.0	50.0	75.0	100.0	0.0	25.0	50.0	75.0	100.0
+Group	CCI	CCI	CCI	CCI	CCI	Sham	Sham	Sham	Sham	Sham
+Bacteria;Bacteroidota;Bacteroidia;Bacteroidales	1087.0	2719.0	3513.0	4321.0	7152.0	1958.0	3106.0	3932.5	5351.75	9037.0
+Bacteria;Firmicutes;Bacilli;RF39	1.0	7.0	21.0	45.0	165.0	1.0	15.0	31.5	54.25	212.0
+Bacteria;Firmicutes;Bacilli;Lactobacillales	42.0	1867.0	2806.0	4017.0	12174.0	41.0	1018.25	2398.0	3967.0	10794.0
+Bacteria;Firmicutes;Clostridia;Lachnospirales	881.0	2156.0	2806.0	4244.0	8882.0	680.0	1746.5	4353.0	5063.25	9087.0
+Bacteria;Firmicutes;Bacilli;Erysipelotrichales	2718.0	5303.0	7079.0	8471.0	11885.0	424.0	5656.0	7084.0	9259.0	13127.0
+Bacteria;Firmicutes;Clostridia;Oscillospirales	235.0	604.0	789.0	975.0	2695.0	265.0	510.25	1102.5	1390.25	2281.0
+Bacteria;Actinobacteriota;Coriobacteriia;Coriobacteriales	18.0	59.0	85.0	108.0	827.0	38.0	86.75	106.5	181.75	638.0
+Bacteria;Firmicutes;Clostridia;Peptostreptococcales-Tissierellales	1.0	100.0	213.0	380.0	681.0	24.0	56.0	354.5	650.5	1439.0
+Bacteria;Firmicutes;Clostridia;Clostridia UCG-014	10.0	72.0	130.0	288.0	760.0	16.0	74.5	171.0	320.0	925.0
+Bacteria;Firmicutes;Clostridia;Peptococcales	1.0	1.0	6.0	9.0	23.0	1.0	4.75	8.0	13.5	23.0
+Bacteria;Firmicutes;Clostridia;Clostridiales	1.0	10.0	45.0	203.0	498.0	1.0	14.0	127.5	312.5	1120.0
+Bacteria;;;	1.0	1.0	6.0	18.0	73.0	1.0	4.75	9.5	39.5	106.0
+Bacteria;Firmicutes;Clostridia;Clostridia vadinBB60 group	32.0	88.0	132.0	177.0	364.0	28.0	91.5	122.5	186.0	285.0
+Bacteria;Verrucomicrobiota;Verrucomicrobiae;Verrucomicrobiales	1.0	104.0	251.0	504.0	963.0	1.0	92.75	276.5	522.5	996.0
+Bacteria;Firmicutes;Clostridia;Monoglobales	1.0	13.0	26.0	42.0	89.0	1.0	13.25	22.5	40.25	236.0
+Bacteria;Firmicutes;;	1.0	1.0	1.0	2.0	34.0	1.0	1.0	1.0	2.0	53.0
+Bacteria;Firmicutes;Bacilli;	1.0	1.0	1.0	2.0	6.0	1.0	1.0	1.0	2.0	10.0
+Bacteria;Bacteroidota;Bacteroidia;	1.0	1.0	1.0	1.0	3.0	1.0	1.0	1.0	1.0	2.0
+Bacteria;Proteobacteria;Gammaproteobacteria;Burkholderiales	1.0	8.0	27.0	57.0	209.0	1.0	25.0	45.5	90.25	245.0
+Bacteria;Actinobacteriota;Actinobacteria;Bifidobacteriales	11.0	65.0	107.0	160.0	410.0	1.0	21.75	92.0	133.5	618.0
+Bacteria;Firmicutes;Clostridia;	1.0	1.0	1.0	1.0	5.0	1.0	1.0	1.0	1.25	10.0
+Bacteria;Firmicutes;Clostridia;Christensenellales	1.0	1.0	1.0	6.0	17.0	1.0	1.0	5.0	8.25	20.0
+;;;	1.0	1.0	1.0	1.0	3.0	1.0	1.0	1.0	1.0	3.0
+Bacteria;Firmicutes;Bacilli;Acholeplasmatales	1.0	19.0	52.0	142.0	512.0	1.0	11.0	44.0	96.5	335.0
+Bacteria;Firmicutes;Bacilli;Staphylococcales	1.0	1.0	1.0	1.0	187.0	1.0	1.0	1.0	1.0	230.0
+Bacteria;Firmicutes;Bacilli;Bacillales	1.0	1.0	1.0	1.0	12.0	1.0	1.0	1.0	1.0	11.0
+Bacteria;Firmicutes;Clostridia;Eubacteriales	1.0	1.0	1.0	1.0	5.0	1.0	1.0	1.0	1.0	1.0

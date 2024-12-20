@@ -1,0 +1,16 @@
+"",".sample_name","MouseID","Genotype","Sex","Injury","Treatment","Timepoint","Project","helveticus"
+"1","Villapol_244_B",244,"WT","F","CCI","PAN","Baseline","PAN",2.39800666324909
+"2","Villapol_245_B",245,"WT","F","CCI","PAN","Baseline","PAN",2.71728650733507
+"3","Villapol_246_B",246,"WT","F","CCI","PAN","Baseline","PAN",2.66215493523185
+"4","Villapol_247_B",247,"WT","F","CCI","PAN","Baseline","PAN",3.10903504927949
+"5","Villapol_248_B",248,"WT","F","CCI","PAN","Baseline","PAN",2.86058647895437
+"6","Villapol_249_B",249,"WT","F","CCI","PAN","Baseline","PAN",2.63804319665819
+"7","Villapol_250_B",250,"WT","F","CCI","PAN","Baseline","PAN",2.3498319637416
+"8","Villapol_251_B",251,"WT","F","CCI","PAN","Baseline","PAN",2.31481229702582
+"9","Villapol_252_B",252,"WT","F","CCI","PAN","Baseline","PAN",3.44836416076724
+"10","Villapol_253_B",253,"WT","F","CCI","PAN","Baseline","PAN",2.75016458104433
+"11","Villapol_279_B",279,"WT","F","Sham","PAN","Baseline","PAN",2.9063839509393
+"12","Villapol_280_B",280,"WT","F","Sham","PAN","Baseline","PAN",1.93134616266749
+"13","Villapol_281_B",281,"WT","F","Sham","PAN","Baseline","PAN",1.59832187780284
+"14","Villapol_282_B",282,"WT","F","Sham","PAN","Baseline","PAN",1.43363865378245
+"15","Villapol_283_B",283,"WT","F","Sham","PAN","Baseline","PAN",1.41503781112055

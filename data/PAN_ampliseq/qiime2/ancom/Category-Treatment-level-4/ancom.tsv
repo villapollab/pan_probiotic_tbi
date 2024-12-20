@@ -1,0 +1,28 @@
+	W	Reject null hypothesis
+Bacteria;Firmicutes;Bacilli;Erysipelotrichales	13	True
+Bacteria;Firmicutes;Bacilli;Staphylococcales	6	False
+Bacteria;Firmicutes;Clostridia;Clostridia vadinBB60 group	3	False
+Bacteria;Bacteroidota;Bacteroidia;Bacteroidales	2	False
+Bacteria;Firmicutes;Bacilli;Bacillales	2	False
+Bacteria;Firmicutes;Clostridia;	2	False
+Bacteria;Actinobacteriota;Actinobacteria;Bifidobacteriales	2	False
+Bacteria;Bacteroidota;Bacteroidia;	2	False
+Bacteria;Firmicutes;Clostridia;Monoglobales	2	False
+Bacteria;Verrucomicrobiota;Verrucomicrobiae;Verrucomicrobiales	2	False
+Bacteria;Firmicutes;Bacilli;Lactobacillales	2	False
+Bacteria;Firmicutes;Clostridia;Eubacteriales	1	False
+Bacteria;Firmicutes;Clostridia;Lachnospirales	1	False
+;;;	1	False
+Bacteria;Firmicutes;Bacilli;	1	False
+Bacteria;Firmicutes;Clostridia;Oscillospirales	1	False
+Bacteria;Actinobacteriota;Coriobacteriia;Coriobacteriales	0	False
+Bacteria;Firmicutes;Bacilli;Acholeplasmatales	0	False
+Bacteria;Firmicutes;Clostridia;Christensenellales	0	False
+Bacteria;Firmicutes;Clostridia;Clostridiales	0	False
+Bacteria;;;	0	False
+Bacteria;Firmicutes;Clostridia;Peptostreptococcales-Tissierellales	0	False
+Bacteria;Firmicutes;;	0	False
+Bacteria;Firmicutes;Clostridia;Clostridia UCG-014	0	False
+Bacteria;Firmicutes;Bacilli;RF39	0	False
+Bacteria;Firmicutes;Clostridia;Peptococcales	0	False
+Bacteria;Proteobacteria;Gammaproteobacteria;Burkholderiales	0	False

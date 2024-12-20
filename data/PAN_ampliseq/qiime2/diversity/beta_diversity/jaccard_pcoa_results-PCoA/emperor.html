@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Emperor</title>
+    <!-- core dependencies that are otherwise included via the jupyter notebook -->
+<script src="./vendor/js/require-2.1.22.min.js"></script>
+<script src="./vendor/js/jquery-2.1.4.min.js"></script>
+    <meta charset="utf-8">
+
+    <script type="text/javascript">
+
+if ($("#emperor-css").length == 0){{
+    $("head").append([
+
+        '<link id="emperor-css" rel="stylesheet" type="text/css" href="./css/emperor.css">',
+        '<link rel="stylesheet" type="text/css" href="./vendor/css/jquery-ui.min.css">',
+        '<link rel="stylesheet" type="text/css" href="./vendor/css/slick.grid.min.css">',
+        '<link rel="stylesheet" type="text/css" href="./vendor/css/spectrum.min.css">',
+        '<link rel="stylesheet" type="text/css" href="./vendor/css/chosen.min.css">',
+        '<link rel="stylesheet" type="text/css" href="./vendor/css/jquery.contextMenu.min.css">'
+    ]);
+}}
+</script>
+
+
+    <style>
+      #emperor-notebook-0xe7a64687 {
+        height:100vh !important;
+        padding: 0px !important;
+      }
+      body {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id='emperor-notebook-0xe7a64687' style="position: relative; width:100%; height:500px;">
+  <div class='loading' style="position: absolute;top: 50%;left: 50%;margin-left: -229px; margin-top: -59px; z-index: 10000;height:118px;width:458px;padding:0px"><img src='./img/emperor.png' alt='Emperor resources missing. Expected them to be found in .'></div>
+</div>
+</div>
+    <script type="text/javascript">
+    // When running in the Jupyter notebook we've encountered version conflicts
+// with some dependencies. So instead of polluting the global require context,
+// we define a new context.
+var emperorRequire = require.config({
+'context': 'emperor',
+// the left side is the module name, and the right side is the path
+// relative to the baseUrl attribute, do NOT include the .js extension
+'paths': {
+  /* jQuery */
+  'jquery': './vendor/js/jquery-2.1.4.min',
+  'jqueryui': './vendor/js/jquery-ui.min',
+  'jquery_drag': './vendor/js/jquery.event.drag-2.2.min',
+
+  /* jQuery plugins */
+  'chosen': './vendor/js/chosen.jquery.min',
+  'spectrum': './vendor/js/spectrum.min',
+  'position': './vendor/js/jquery.ui.position.min',
+  'contextmenu': './vendor/js/jquery.contextMenu.min',
+
+  /* other libraries */
+  'underscore': './vendor/js/underscore-min',
+  'chroma': './vendor/js/chroma.min',
+  'filesaver': './vendor/js/FileSaver.min',
+  'blob': './vendor/js/Blob',
+  'canvastoblob': './vendor/js/canvas-toBlob',
+  'd3': './vendor/js/d3.min',
+
+  /* THREE.js and plugins */
+  'three': './vendor/js/three.min',
+  'orbitcontrols': './vendor/js/three.js-plugins/OrbitControls',
+  'projector': './vendor/js/three.js-plugins/Projector',
+  'svgrenderer': './vendor/js/three.js-plugins/SVGRenderer',
+  'canvasrenderer': './vendor/js/three.js-plugins/CanvasRenderer',
+  'selectionbox': './vendor/js/three.js-plugins/SelectionBox',
+  'selectionhelper': './vendor/js/three.js-plugins/SelectionHelper',
+
+  /* SlickGrid */
+  'slickcore': './vendor/js/slick.core.min',
+  'slickgrid': './vendor/js/slick.grid.min',
+  'slickformatters': './vendor/js/slick.editors.min',
+  'slickeditors': './vendor/js/slick.formatters.min',
+  'slickdataview': './vendor/js/slick.dataview.min',
+
+  /* Emperor's objects */
+  'util': './js/util',
+  'model': './js/model',
+  'multi-model': './js/multi-model',
+  'view': './js/view',
+  'controller': './js/controller',
+  'draw': './js/draw',
+  'scene3d': './js/sceneplotview3d',
+  'shapes': './js/shapes',
+  'animationdirector': './js/animate',
+  'trajectory': './js/trajectory',
+  'uistate': './js/ui-state',
+
+  /* controllers */
+  'abcviewcontroller': './js/abc-view-controller',
+  'viewcontroller': './js/view-controller',
+  'colorviewcontroller': './js/color-view-controller',
+  'visibilitycontroller': './js/visibility-controller',
+  'opacityviewcontroller': './js/opacity-view-controller',
+  'scaleviewcontroller': './js/scale-view-controller',
+  'shapecontroller': './js/shape-controller',
+  'axescontroller': './js/axes-controller',
+  'animationscontroller': './js/animations-controller',
+
+  /* editors */
+  'shape-editor': './js/shape-editor',
+  'color-editor': './js/color-editor',
+  'scale-editor': './js/scale-editor'
+
+},
+/*
+   Libraries that are not AMD compatible need shim to declare their
+   dependencies.
+ */
+'shim': {
+  'jquery_drag': {
+    'deps': ['jquery', 'jqueryui']
+  },
+  'chosen': {
+    'deps': ['jquery'],
+    'exports': 'jQuery.fn.chosen'
+  },
+  'contextmenu' : {
+    'deps': ['jquery', 'jqueryui', 'position']
+  },
+  'filesaver' : {
+    'deps': ['blob']
+  },
+  'canvastoblob' : {
+    'deps': ['blob']
+  },
+  'slickcore': ['jqueryui'],
+  'slickgrid': ['slickcore', 'jquery_drag', 'slickformatters', 'slickeditors',
+                'slickdataview']
+}
+});
+
+emperorRequire(
+["jquery", "model", "controller"],
+function($, model, EmperorController) {
+  var DecompositionModel = model.DecompositionModel;
+
+  var div = $('#emperor-notebook-0xe7a64687');
+
+  var data = {"info": null, "plot": {"decomposition": {"axes_names": [0, 1, 2, 3, 4], "ci": null, "coordinates": [[-0.7012060760153794, -0.17682232312726406, -0.8123398020503363, 0.4231338309734726, -0.16944845040549508], [-0.5471996164117219, -0.1729940718469902, -0.7692328536429524, 0.451612336540904, -0.18794072256535213], [-0.5223098211599461, -0.2606967425504011, -1.0, 0.2895653384340503, -0.05458227121111594], [-0.5559104935399315, 0.03670588129319314, -0.9699929139570962, 0.4956094131661786, -0.011962923582491626], [-0.6937563634109387, 0.07456457781322533, -0.1205451397333881, -0.21747639363668508, 0.0690831290701055], [-0.6099315093833592, -0.004371553853697828, -0.2357674133516105, -0.07262002093818144, -0.3105522240163646], [-0.642856638240841, 0.15429754619082636, -0.326881041137087, -0.1062234675884823, -0.10595632108580222], [-0.4671500398574704, -0.18626488680266587, -0.6942520486788512, 0.0004974886962848776, -0.01687429543253469], [-0.6546370731320529, 0.23893296980954146, -0.323604679201887, 0.06586884165731319, -0.03866325183284102], [0.7060903397506125, 0.5631920247286818, -0.36903389833898437, 0.007862945028896052, -0.5318159537756393], [0.4829972016934071, 0.5916376554345832, -0.4515096514144448, -0.24358657405580184, -0.37269629383271], [0.25078705337979845, 0.9120930362715688, -0.01822580163071942, 0.06614372663581727, -0.21645836509873823], [0.4297824935224523, 0.7756025222705294, -0.17801283337390011, -0.07647406336637934, -0.30753983409025787], [0.4290752082874301, 0.8341628641356156, -0.10888643923156063, -0.1736582581128849, -0.321359964350243], [0.48343033264652585, 0.6716240941242494, -0.6004099890615048, 0.0036244319964336496, -0.3514380693952522], [0.45276840130582624, 0.7788550463736086, -0.36520410960271993, -0.11121121869745677, -0.24887903099342365], [0.5128989582583867, 0.5511716154678483, -0.5116750684712852, 0.007849993409980221, -0.2319746233034582], [0.42498437787361976, 0.6003529806902971, -0.5465018527576679, -0.07220637831988086, -0.14324981738375522], [0.2815038683354216, 0.8610658566807488, -0.32632081253017514, -0.15138497304760706, -0.02934517953557988], [-0.49748164732553746, -0.5611567340299987, -0.5167220219521989, 0.4760707493840171, -0.1124243497583033], [-0.644562412880486, -0.20797644204938942, -0.30640105738216483, 0.14345118479797905, 0.1385368436698305], [-0.6943712043717082, -0.425169135755009, -0.31232770241703484, 0.41816490298313613, 0.06547395688881034], [-0.6804271111187685, 0.001999803710181859, -0.10464890704287885, 0.21962396091407568, 0.02166774123131408], [-0.7775092115839183, 0.17099115338482931, -0.02544234182841471, 0.27323802897205, -0.257320129909401], [-0.4231841245309708, -0.3843962284003725, -0.2569617075770507, 0.08439972977054291, 0.1935054473825143], [-0.580463914018614, -0.028172024160064, 0.08249610202081466, -0.20673097645783076, 0.26374850926271126], [-0.5354572848896998, -0.4772244286854089, -0.17301146918875238, -0.3463733336939743, 0.21230791559554088], [-0.5236776058169801, -0.24197323438804536, -0.25479635618638896, -0.07495407461704567, 0.22544996365090603], [-0.34572017543529016, -0.70916838303063, -0.4407246859796877, -0.38259052438075175, -0.06529683893083178], [0.29453414590239796, -0.42233868487640663, -0.07197457553513287, 0.14847815562899788, -0.18862909421456361], [0.4819149260769396, -0.2655051576201865, 0.0390880949351132, 0.19997432670740428, -0.13909552872012682], [0.49832277719905294, -0.5948783742705543, -0.07235586196037207, 0.07291597525223928, -0.6356959977702806], [0.3821476483010923, -0.8174622029550872, -0.36287479299780656, 0.3394265442004544, -0.4530492722268066], [0.573447597094832, -0.7023946447224897, -0.07126802186187127, 0.3233000004544908, -0.16506174893102532], [0.40295470087897145, 0.2716908257600837, 0.31700198382612876, 0.15256177924186987, 0.30863318261829514], [0.5651033594026532, -0.13434776797737208, 0.24698388655612297, 0.1743211432292685, 0.3557824317641354], [0.398047799855015, -0.2745668248747992, 0.28399721676235656, -0.10035335430199535, 0.23108557191158496], [0.5185381615800595, -0.4427080430660949, 0.011379365733460224, 0.03208854888016588, 0.19502477106163152], [0.5615038488424077, 0.27017080898701923, 0.3866730913168893, 0.03805312952949983, 0.23251023371574533], [-0.542922055948192, 0.5100981202242943, -0.4088959640453058, 0.3860875212037362, 0.3176609314008563], [-0.44731921372798145, 0.6771007129064616, -0.3524663135009347, 0.15031710301155804, 0.01909767418575502], [-0.4286656356655333, 0.9445235947761496, 0.02063799943023323, 0.0328185261941325, -0.0988259239177218], [-0.5701818934270437, 0.31956681516834684, -0.48067483299799085, 0.2977317802007072, 0.3242538073195857], [-0.6960012409497468, 0.3891259724085495, -0.4854574417281875, 0.018092064460467332, 0.13828638852909503], [0.5721160430490351, 0.1610970313162967, -0.18845104649182792, 0.25842908050903257, 0.07066369036853526], [0.42837195300543324, 0.6621773853362799, -0.10479539559678067, 0.24276805433699533, 0.17945972804723664], [0.42452806685340805, 0.5787902621836217, -0.05529905377357249, 0.45159466694659484, 0.31118272576476824], [0.5630483826630551, 0.07908704010310658, -0.24788060351430719, -0.1029590845213054, -0.3979524703245864], [0.37946954799122845, 0.3806602463999236, 0.13229047971252794, 0.44041863965283495, 0.30392000572972366], [-0.6421225424215532, 0.2252642062914157, 0.6374951892893076, 0.18567700934380982, -0.47624665787274595], [-0.481803721781104, 0.2973898305075477, 0.6439735882830142, 0.10496737776583141, -0.44827778615664593], [-0.7633535293751792, 0.11068004850547988, 0.49270776501344854, -0.004709879965438623, -0.3892615181818354], [-0.676936641263122, 0.3990646810675944, 0.5572865731156281, 0.446118336950965, -0.4266074979556652], [-0.8561604856146375, 0.21314918507056846, 0.5183517291238009, 0.1113974779442937, -0.3833880717347633], [0.41669351911695096, -0.4784707412373731, 0.0055274025663958155, 0.020948489580134552, -0.12411956173797847], [0.7814941288556179, -0.7373810341019312, -0.1536536341056458, -0.2004460145045, -0.17486701768677868], [0.7388654748435367, -0.4599123814882183, -0.22036744874918793, 0.1448982273088799, -0.03461760083152482], [0.8051331943038095, -0.1745220574849572, 0.07912634218337175, 0.0065786784793064445, -0.0407437289802059], [0.533697783049503, -0.5370096616014145, -0.13963658910000193, 0.20178641405762893, 0.0005459385792830935], [-0.26162962916083166, -0.14726870639419778, -0.06425913182226133, -0.4579610890254286, -0.03274703714036511], [-0.19334223919690202, -0.19593442857328, 0.10338809022860507, -0.12425393453399243, 0.10610420021032888], [-0.38776902269939945, -0.21913218293512648, -0.21174310453417272, -0.027088152338310925, 0.35532746569800155], [-0.4264198466886731, 0.10802395122938843, 0.18035702481287189, -0.20977205660397324, 0.4102891068525678], [-0.49912985932709647, -0.02729454000762821, -0.21705598552324507, -0.15027199695494686, 0.36778153317985846], [-0.4921380639244175, 0.09910891396767782, 0.016537519593247264, -0.25675377936292987, 0.10633999115354115], [-0.3989038574912259, 0.16302535912370633, -0.044289552756848094, -0.3147329638626931, 0.2282333833165534], [-0.30560588951272327, -0.2570801996343356, -0.1331602255827979, -0.40487934232428247, 0.39399712143270554], [-0.41497545420009174, 0.24491513521081, 0.11940257593941124, -0.7540093595991922, 0.3227248094039343], [0.3613243514204793, -0.2540024765105147, -0.21029591203996603, -0.6598068639176935, -0.6881420976118106], [0.1751481064280247, 0.1565340009381755, 0.1304715650427222, -0.6998812352787722, -0.28257893995189787], [0.17964005997882737, 0.07795343465486491, -0.1792143769011519, -0.8177690641598976, -0.189942320020096], [0.11509539993391503, 0.2786055153971425, 0.031952396747913246, -0.8401915979760644, -0.261189263475522], [0.24279147235344029, 0.05406489225487102, 0.038686526992514014, -0.4027583908652679, 0.08589994310871854], [0.27577199783306056, -0.17785887465752867, -0.28574715111836, -0.5115617494236859, 0.35752957466256857], [0.14725282168000067, 0.09902700354886777, -0.08509126010695707, -0.293778848154434, 0.7857243941231075], [0.22962051846803758, -0.06908695638388121, -0.23193828202140207, -0.17172669138333083, 0.6914802558224946], [0.39750753196229016, 0.21689965082471335, -0.4162493880077827, -0.24638050303319736, 0.4866897712053002], [0.1850814361397099, 0.26358323102672, 0.03982128859588694, -0.44490006148396466, 0.558447279542562], [-0.5155901388310351, -0.1952393494820035, 0.2801073837487632, -0.0659574738584724, 0.02961085669345681], [-0.2104989531166661, -0.19212672621708002, 0.3485583639240846, -0.37756610108453753, 0.13580218099111202], [-0.575184668818542, 0.16875305535685922, 0.5063366898955661, 0.0697232746638679, 0.1610093727387896], [-0.5604012748513921, -0.04784723669997162, 0.4869037837179977, -0.278388746099582, 0.17124036043561638], [-0.25295682709956085, -0.3616075173214005, 0.20050627139378915, -0.3642359855830151, -0.27406411922667734], [-0.25745737604828905, -0.605712369009747, 0.11227340230730395, -0.5703002215874653, 0.06631755982638295], [-0.360909830963616, -0.4963225906072626, 0.2516200997696933, -0.4801269785144462, 0.1351633511823277], [0.086111200976158, -0.6078079517536875, -0.04560315758799732, -0.5831435725833864, -0.34138568838415545], [-0.20346475031666217, -0.34741929440936514, 0.2636621359887561, -0.4742020941176818, 0.17179376408151528], [0.5340314118893162, 0.48414061761254673, 0.5361258191210937, -0.11975075585027713, -0.24443476253459456], [0.6263121900929888, 0.21534590494718842, 0.3439254870384346, 0.03535547149197444, -0.06845430739219355], [0.3952238305431543, 0.19712056697068428, 0.5172385051732593, 0.04973548197011954, -0.09560118082803179], [0.5656718884970626, 0.2527814238296378, 0.19015742930560176, -0.1510376275673163, -0.4437759715679586], [0.8376905454166269, -0.14366106536807716, 0.09247408698913591, -0.07851721316008156, -0.39353864521217713], [0.8154731678912661, -0.4664032962807242, -0.12181816531027921, -0.0074597116400137295, 0.052420993720342784], [0.6545097625308008, 0.2973887686184568, 0.2258981618923168, 0.2877893591686146, 0.23680344176824916], [0.7534220711781708, -0.32080343724429494, -0.07650587516569504, 0.3153768853635451, 0.2358969436349606], [0.8073756645449577, 0.05094453780423387, 0.17564927040508146, 0.10239603401525234, 0.23066969918913863], [0.8896512047805704, -0.12729911896029014, 0.09844154418358839, -0.007688903377596998, 0.04611324940142582], [-0.6006126994154986, 0.19906789681116382, 0.5727335675170804, -0.12059954494299777, -0.013847466343803575], [-0.46632317907696685, 0.16286188720177525, 0.43438299812376213, 0.007781809373474936, -0.09279965933475669], [-0.5577291223129398, 0.279738874320008, 0.4995139830886492, -0.04516429038125964, 0.0645427338379273], [-0.48565684028128886, 0.21588546746092663, 0.3923368870109961, 0.09918875646612348, 0.20971646309532185], [-0.513252507629293, 0.3586149211755216, 0.5826845937632522, 0.06854903425262855, 0.030256630481486697], [0.5593808413218994, -0.22581026982507135, -0.031060762416388776, 0.342912290552828, 0.4154556646335357], [0.14154671450221729, 0.05144503078382095, 0.45372554180024743, 0.47914230233340577, 0.43922063890061536], [0.23462214592547473, 0.2443636012203308, 0.526289979610456, 0.45197764443324995, 0.5081441756122702], [0.5730645869279941, 0.2619170178583162, 0.11060804918386895, 0.4629113279989074, 0.06696596826657682], [0.6378330540585474, -0.35897109496411067, 0.22865489584828708, 0.18335750417173094, 0.1419723848328699], [-0.3432672238150237, -0.4909252511781762, 0.3993596798410601, 0.4733041581268031, -0.3832569920202369], [-0.10787114839151193, -0.5802889106634893, 0.39690753079959223, 0.08917614005986228, -0.6755688629043157], [-0.3877066451941917, -0.6331896158229303, 0.395113251893853, 0.22900703971632191, -0.48849943081215097], [-0.38919407121216204, -0.3479907480508383, 0.306686411900629, 0.4483290400473047, -0.23793878470067398], [-0.48089293007478034, -0.013772820622399436, 0.7016135945188526, 0.39634047068793077, -0.24323306072624407], [0.22187186259117556, -0.2784014679270334, 0.23558313579167878, 0.19464521982311042, 0.49652839807369925], [0.1589169700519689, -0.7658753994399231, 0.01043417851379883, 0.28130445486639544, 0.09970878172141738], [0.43934855025434116, -0.5955212439248565, 0.17656036734429154, 0.13692844479394414, 0.22584154848355306], [0.27823985764358095, 0.2688456248232488, 0.4281081064381219, 0.4319726148886368, 0.16070337366317056], [0.5583808212139527, -0.3493037745378718, 0.29270751891024654, 0.11090477713791182, 0.14686902519453912]], "edges": [], "percents_explained": [7.474140195311459, 4.772524678418469, 3.690314042347164, 2.7302710581209273, 2.502863739358467], "sample_ids": ["Villapol_234_B", "Villapol_236_B", "Villapol_237_B", "Villapol_238_B", "Villapol_239_B", "Villapol_240_B", "Villapol_241_B", "Villapol_242_B", "Villapol_243_B", "Villapol_244_B", "Villapol_245_B", "Villapol_246_B", "Villapol_247_B", "Villapol_248_B", "Villapol_249_B", "Villapol_250_B", "Villapol_251_B", "Villapol_252_B", "Villapol_253_B", "Villapol_254_B", "Villapol_255_B", "Villapol_256_B", "Villapol_257_B", "Villapol_258_B", "Villapol_259_B", "Villapol_260_B", "Villapol_261_B", "Villapol_262_B", "Villapol_263_B", "Villapol_264_B", "Villapol_265_B", "Villapol_266_B", "Villapol_267_B", "Villapol_268_B", "Villapol_269_B", "Villapol_270_B", "Villapol_271_B", "Villapol_272_B", "Villapol_273_B", "Villapol_274_B", "Villapol_275_B", "Villapol_276_B", "Villapol_277_B", "Villapol_278_B", "Villapol_279_B", "Villapol_280_B", "Villapol_281_B", "Villapol_282_B", "Villapol_283_B", "Villapol_284_B", "Villapol_285_B", "Villapol_286_B", "Villapol_287_B", "Villapol_288_B", "Villapol_289_B", "Villapol_290_B", "Villapol_291_B", "Villapol_292_B", "Villapol_293_B", "Villapol_35d_234", "Villapol_35d_236", "Villapol_35d_237", "Villapol_35d_238", "Villapol_35d_239", "Villapol_35d_240", "Villapol_35d_241", "Villapol_35d_242", "Villapol_35d_243", "Villapol_35d_244", "Villapol_35d_245", "Villapol_35d_246", "Villapol_35d_247", "Villapol_35d_248", "Villapol_35d_249", "Villapol_35d_250", "Villapol_35d_251", "Villapol_35d_252", "Villapol_35d_253", "Villapol_35d_254", "Villapol_35d_255", "Villapol_35d_256", "Villapol_35d_257", "Villapol_35d_258", "Villapol_35d_259", "Villapol_35d_261", "Villapol_35d_262", "Villapol_35d_263", "Villapol_35d_264", "Villapol_35d_265", "Villapol_35d_266", "Villapol_35d_267", "Villapol_35d_268", "Villapol_35d_269", "Villapol_35d_270", "Villapol_35d_271", "Villapol_35d_272", "Villapol_35d_273", "Villapol_35d_274", "Villapol_35d_275", "Villapol_35d_276", "Villapol_35d_277", "Villapol_35d_278", "Villapol_35d_279", "Villapol_35d_280", "Villapol_35d_281", "Villapol_35d_282", "Villapol_35d_283", "Villapol_35d_284", "Villapol_35d_285", "Villapol_35d_286", "Villapol_35d_287", "Villapol_35d_288", "Villapol_35d_289", "Villapol_35d_290", "Villapol_35d_291", "Villapol_35d_292", "Villapol_35d_293"]}, "metadata": [["Villapol_234_B", "234.0", "WT", "M", "CCI", "PAN", "Baseline", "PAN"], ["Villapol_236_B", "236.0", "WT", "M", "CCI", "PAN", "Baseline", "PAN"], ["Villapol_237_B", "237.0", "WT", "M", "CCI", "PAN", "Baseline", "PAN"], ["Villapol_238_B", "238.0", "WT", "M", "CCI", "PAN", "Baseline", "PAN"], ["Villapol_239_B", "239.0", "WT", "M", "CCI", "PAN", "Baseline", "PAN"], ["Villapol_240_B", "240.0", "WT", "M", "CCI", "PAN", "Baseline", "PAN"], ["Villapol_241_B", "241.0", "WT", "M", "CCI", "PAN", "Baseline", "PAN"], ["Villapol_242_B", "242.0", "WT", "M", "CCI", "PAN", "Baseline", "PAN"], ["Villapol_243_B", "243.0", "WT", "M", "CCI", "PAN", "Baseline", "PAN"], ["Villapol_244_B", "244.0", "WT", "F", "CCI", "PAN", "Baseline", "PAN"], ["Villapol_245_B", "245.0", "WT", "F", "CCI", "PAN", "Baseline", "PAN"], ["Villapol_246_B", "246.0", "WT", "F", "CCI", "PAN", "Baseline", "PAN"], ["Villapol_247_B", "247.0", "WT", "F", "CCI", "PAN", "Baseline", "PAN"], ["Villapol_248_B", "248.0", "WT", "F", "CCI", "PAN", "Baseline", "PAN"], ["Villapol_249_B", "249.0", "WT", "F", "CCI", "PAN", "Baseline", "PAN"], ["Villapol_250_B", "250.0", "WT", "F", "CCI", "PAN", "Baseline", "PAN"], ["Villapol_251_B", "251.0", "WT", "F", "CCI", "PAN", "Baseline", "PAN"], ["Villapol_252_B", "252.0", "WT", "F", "CCI", "PAN", "Baseline", "PAN"], ["Villapol_253_B", "253.0", "WT", "F", "CCI", "PAN", "Baseline", "PAN"], ["Villapol_254_B", "254.0", "WT", "M", "CCI", "Vehicle", "Baseline", "PAN"], ["Villapol_255_B", "255.0", "WT", "M", "CCI", "Vehicle", "Baseline", "PAN"], ["Villapol_256_B", "256.0", "WT", "M", "CCI", "Vehicle", "Baseline", "PAN"], ["Villapol_257_B", "257.0", "WT", "M", "CCI", "Vehicle", "Baseline", "PAN"], ["Villapol_258_B", "258.0", "WT", "M", "CCI", "Vehicle", "Baseline", "PAN"], ["Villapol_259_B", "259.0", "WT", "M", "CCI", "Vehicle", "Baseline", "PAN"], ["Villapol_260_B", "260.0", "WT", "M", "CCI", "Vehicle", "Baseline", "PAN"], ["Villapol_261_B", "261.0", "WT", "M", "CCI", "Vehicle", "Baseline", "PAN"], ["Villapol_262_B", "262.0", "WT", "M", "CCI", "Vehicle", "Baseline", "PAN"], ["Villapol_263_B", "263.0", "WT", "M", "CCI", "Vehicle", "Baseline", "PAN"], ["Villapol_264_B", "264.0", "WT", "F", "CCI", "Vehicle", "Baseline", "PAN"], ["Villapol_265_B", "265.0", "WT", "F", "CCI", "Vehicle", "Baseline", "PAN"], ["Villapol_266_B", "266.0", "WT", "F", "CCI", "Vehicle", "Baseline", "PAN"], ["Villapol_267_B", "267.0", "WT", "F", "CCI", "Vehicle", "Baseline", "PAN"], ["Villapol_268_B", "268.0", "WT", "F", "CCI", "Vehicle", "Baseline", "PAN"], ["Villapol_269_B", "269.0", "WT", "F", "CCI", "Vehicle", "Baseline", "PAN"], ["Villapol_270_B", "270.0", "WT", "F", "CCI", "Vehicle", "Baseline", "PAN"], ["Villapol_271_B", "271.0", "WT", "F", "CCI", "Vehicle", "Baseline", "PAN"], ["Villapol_272_B", "272.0", "WT", "F", "CCI", "Vehicle", "Baseline", "PAN"], ["Villapol_273_B", "273.0", "WT", "F", "CCI", "Vehicle", "Baseline", "PAN"], ["Villapol_274_B", "274.0", "WT", "M", "Sham", "PAN", "Baseline", "PAN"], ["Villapol_275_B", "275.0", "WT", "M", "Sham", "PAN", "Baseline", "PAN"], ["Villapol_276_B", "276.0", "WT", "M", "Sham", "PAN", "Baseline", "PAN"], ["Villapol_277_B", "277.0", "WT", "M", "Sham", "PAN", "Baseline", "PAN"], ["Villapol_278_B", "278.0", "WT", "M", "Sham", "PAN", "Baseline", "PAN"], ["Villapol_279_B", "279.0", "WT", "F", "Sham", "PAN", "Baseline", "PAN"], ["Villapol_280_B", "280.0", "WT", "F", "Sham", "PAN", "Baseline", "PAN"], ["Villapol_281_B", "281.0", "WT", "F", "Sham", "PAN", "Baseline", "PAN"], ["Villapol_282_B", "282.0", "WT", "F", "Sham", "PAN", "Baseline", "PAN"], ["Villapol_283_B", "283.0", "WT", "F", "Sham", "PAN", "Baseline", "PAN"], ["Villapol_284_B", "284.0", "WT", "M", "Sham", "Vehicle", "Baseline", "PAN"], ["Villapol_285_B", "285.0", "WT", "M", "Sham", "Vehicle", "Baseline", "PAN"], ["Villapol_286_B", "286.0", "WT", "M", "Sham", "Vehicle", "Baseline", "PAN"], ["Villapol_287_B", "287.0", "WT", "M", "Sham", "Vehicle", "Baseline", "PAN"], ["Villapol_288_B", "288.0", "WT", "M", "Sham", "Vehicle", "Baseline", "PAN"], ["Villapol_289_B", "289.0", "WT", "F", "Sham", "Vehicle", "Baseline", "PAN"], ["Villapol_290_B", "290.0", "WT", "F", "Sham", "Vehicle", "Baseline", "PAN"], ["Villapol_291_B", "291.0", "WT", "F", "Sham", "Vehicle", "Baseline", "PAN"], ["Villapol_292_B", "292.0", "WT", "F", "Sham", "Vehicle", "Baseline", "PAN"], ["Villapol_293_B", "293.0", "WT", "F", "Sham", "Vehicle", "Baseline", "PAN"], ["Villapol_35d_234", "234.0", "WT", "M", "CCI", "PAN", "35d", "PAN"], ["Villapol_35d_236", "236.0", "WT", "M", "CCI", "PAN", "35d", "PAN"], ["Villapol_35d_237", "237.0", "WT", "M", "CCI", "PAN", "35d", "PAN"], ["Villapol_35d_238", "238.0", "WT", "M", "CCI", "PAN", "35d", "PAN"], ["Villapol_35d_239", "239.0", "WT", "M", "CCI", "PAN", "35d", "PAN"], ["Villapol_35d_240", "240.0", "WT", "M", "CCI", "PAN", "35d", "PAN"], ["Villapol_35d_241", "241.0", "WT", "M", "CCI", "PAN", "35d", "PAN"], ["Villapol_35d_242", "242.0", "WT", "M", "CCI", "PAN", "35d", "PAN"], ["Villapol_35d_243", "243.0", "WT", "M", "CCI", "PAN", "35d", "PAN"], ["Villapol_35d_244", "244.0", "WT", "F", "CCI", "PAN", "35d", "PAN"], ["Villapol_35d_245", "245.0", "WT", "F", "CCI", "PAN", "35d", "PAN"], ["Villapol_35d_246", "246.0", "WT", "F", "CCI", "PAN", "35d", "PAN"], ["Villapol_35d_247", "247.0", "WT", "F", "CCI", "PAN", "35d", "PAN"], ["Villapol_35d_248", "248.0", "WT", "F", "CCI", "PAN", "35d", "PAN"], ["Villapol_35d_249", "249.0", "WT", "F", "CCI", "PAN", "35d", "PAN"], ["Villapol_35d_250", "250.0", "WT", "F", "CCI", "PAN", "35d", "PAN"], ["Villapol_35d_251", "251.0", "WT", "F", "CCI", "PAN", "35d", "PAN"], ["Villapol_35d_252", "252.0", "WT", "F", "CCI", "PAN", "35d", "PAN"], ["Villapol_35d_253", "253.0", "WT", "F", "CCI", "PAN", "35d", "PAN"], ["Villapol_35d_254", "254.0", "WT", "M", "CCI", "Vehicle", "35d", "PAN"], ["Villapol_35d_255", "255.0", "WT", "M", "CCI", "Vehicle", "35d", "PAN"], ["Villapol_35d_256", "256.0", "WT", "M", "CCI", "Vehicle", "35d", "PAN"], ["Villapol_35d_257", "257.0", "WT", "M", "CCI", "Vehicle", "35d", "PAN"], ["Villapol_35d_258", "258.0", "WT", "M", "CCI", "Vehicle", "35d", "PAN"], ["Villapol_35d_259", "259.0", "WT", "M", "CCI", "Vehicle", "35d", "PAN"], ["Villapol_35d_261", "261.0", "WT", "M", "CCI", "Vehicle", "35d", "PAN"], ["Villapol_35d_262", "262.0", "WT", "M", "CCI", "Vehicle", "35d", "PAN"], ["Villapol_35d_263", "263.0", "WT", "M", "CCI", "Vehicle", "35d", "PAN"], ["Villapol_35d_264", "264.0", "WT", "F", "CCI", "Vehicle", "35d", "PAN"], ["Villapol_35d_265", "265.0", "WT", "F", "CCI", "Vehicle", "35d", "PAN"], ["Villapol_35d_266", "266.0", "WT", "F", "CCI", "Vehicle", "35d", "PAN"], ["Villapol_35d_267", "267.0", "WT", "F", "CCI", "Vehicle", "35d", "PAN"], ["Villapol_35d_268", "268.0", "WT", "F", "CCI", "Vehicle", "35d", "PAN"], ["Villapol_35d_269", "269.0", "WT", "F", "CCI", "Vehicle", "35d", "PAN"], ["Villapol_35d_270", "270.0", "WT", "F", "CCI", "Vehicle", "35d", "PAN"], ["Villapol_35d_271", "271.0", "WT", "F", "CCI", "Vehicle", "35d", "PAN"], ["Villapol_35d_272", "272.0", "WT", "F", "CCI", "Vehicle", "35d", "PAN"], ["Villapol_35d_273", "273.0", "WT", "F", "CCI", "Vehicle", "35d", "PAN"], ["Villapol_35d_274", "274.0", "WT", "M", "Sham", "PAN", "35d", "PAN"], ["Villapol_35d_275", "275.0", "WT", "M", "Sham", "PAN", "35d", "PAN"], ["Villapol_35d_276", "276.0", "WT", "M", "Sham", "PAN", "35d", "PAN"], ["Villapol_35d_277", "277.0", "WT", "M", "Sham", "PAN", "35d", "PAN"], ["Villapol_35d_278", "278.0", "WT", "M", "Sham", "PAN", "35d", "PAN"], ["Villapol_35d_279", "279.0", "WT", "F", "Sham", "PAN", "35d", "PAN"], ["Villapol_35d_280", "280.0", "WT", "F", "Sham", "PAN", "35d", "PAN"], ["Villapol_35d_281", "281.0", "WT", "F", "Sham", "PAN", "35d", "PAN"], ["Villapol_35d_282", "282.0", "WT", "F", "Sham", "PAN", "35d", "PAN"], ["Villapol_35d_283", "283.0", "WT", "F", "Sham", "PAN", "35d", "PAN"], ["Villapol_35d_284", "284.0", "WT", "M", "Sham", "Vehicle", "35d", "PAN"], ["Villapol_35d_285", "285.0", "WT", "M", "Sham", "Vehicle", "35d", "PAN"], ["Villapol_35d_286", "286.0", "WT", "M", "Sham", "Vehicle", "35d", "PAN"], ["Villapol_35d_287", "287.0", "WT", "M", "Sham", "Vehicle", "35d", "PAN"], ["Villapol_35d_288", "288.0", "WT", "M", "Sham", "Vehicle", "35d", "PAN"], ["Villapol_35d_289", "289.0", "WT", "F", "Sham", "Vehicle", "35d", "PAN"], ["Villapol_35d_290", "290.0", "WT", "F", "Sham", "Vehicle", "35d", "PAN"], ["Villapol_35d_291", "291.0", "WT", "F", "Sham", "Vehicle", "35d", "PAN"], ["Villapol_35d_292", "292.0", "WT", "F", "Sham", "Vehicle", "35d", "PAN"], ["Villapol_35d_293", "293.0", "WT", "F", "Sham", "Vehicle", "35d", "PAN"]], "metadata_headers": ["SampleID", "MouseID", "Genotype", "Sex", "Injury", "Treatment", "Timepoint", "Project"], "settings": {}, "type": "scatter"}};
+
+  var plot, biplot = null, ec;
+
+  function init() {
+    // Initialize the DecompositionModel for the scatter plot, and optionally
+    // add one for the biplot arrows
+    plot = new DecompositionModel(data.plot.decomposition,
+                                  data.plot.metadata_headers,
+                                  data.plot.metadata,
+                                  data.plot.type);
+
+    if (data.biplot) {
+      biplot = new DecompositionModel(data.biplot.decomposition,
+                                      data.biplot.metadata_headers,
+                                      data.biplot.metadata,
+                                      data.biplot.type);
+    }
+
+    ec = new EmperorController(plot, biplot, "emperor-notebook-0xe7a64687", undefined,
+                               data.info);
+  }
+
+  function animate() {
+    requestAnimationFrame(animate);
+    ec.render();
+  }
+  $(window).resize(function() {
+    ec.resize(div.innerWidth(), div.innerHeight());
+  });
+
+  $(function(){
+    init();
+    animate();
+
+    ec.ready = function () {
+      // any other code that needs to be executed when emperor is loaded should
+      // go here
+      ec.loadConfig(data.plot.settings);
+
+      // sets up generic callbacks for 3rd party consumers
+      var plotView = ec.sceneViews[0];
+      /*__custom_on_ready_code__*/
+      
+    }
+  });
+
+}); // END REQUIRE.JS block
+    </script>
+  </body>
+</html>

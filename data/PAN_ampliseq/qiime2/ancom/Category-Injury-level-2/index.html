@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>q2_composition : ancom</title>
+    <link rel="stylesheet" href="./q2templateassets/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="./q2templateassets/css/normalize.css"/>
+    <link rel="stylesheet" href="./q2templateassets/css/base-template.css"/>
+    <script src="./q2templateassets/js/jquery-3.2.0.min.js" charset="utf-8"></script>
+    <script src="./q2templateassets/js/bootstrap.min.js" charset="utf-8"></script>
+    
+  <script src="js/vega.min.js"></script>
+  <script src="js/vega-embed.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/spinkit.css">
+
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div id="q2templatesheader" class="row">
+        <div class="col-lg-12">
+          <a href="http://qiime2.org/">
+            <img src="./q2templateassets/img/qiime2-rect-200.png"
+            alt="QIIME 2">
+          </a>
+        </div>
+      </div>
+        
+
+<div class="row">
+  <div class="col-lg-8">
+    <h3>ANCOM Volcano Plot</h3>
+    <div id="toolbar"></div>
+    
+    <div id="plot">
+      <div id="loading" class="spinner">
+        <div class="rect1"></div>
+        <div class="rect2"></div>
+        <div class="rect3"></div>
+        <div class="rect4"></div>
+        <div class="rect5"></div>
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+<hr>
+
+<div class="row">
+  <div class="col-lg-6">
+    <h4>ANCOM statistical results</h4>
+    
+      <div class="table-responsive">
+        <table border="0" class="dataframe table table-striped table-hover">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>W</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Bacteria;Proteobacteria</th>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>;</th>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>Bacteria;Bacteroidota</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>Bacteria;Firmicutes</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>Bacteria;Actinobacteriota</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>Bacteria;</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>Bacteria;Verrucomicrobiota</th>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+      </div>
+
+      <a href="ancom.tsv" target="_blank" rel="noopener noreferrer" class="btn btn-default">
+        Download table as TSV
+      </a>
+    
+  </div>
+</div>
+
+<hr>
+
+<div class="row">
+  <div class="col-lg-12">
+    <h4>Percentile abundances of features by group</h4>
+    
+      <div class="table-responsive">
+        <table border="0" class="dataframe table table-striped table-hover">
+  <thead>
+    <tr>
+      <th>Percentile</th>
+      <th>0.0</th>
+      <th>25.0</th>
+      <th>50.0</th>
+      <th>75.0</th>
+      <th>100.0</th>
+      <th>0.0</th>
+      <th>25.0</th>
+      <th>50.0</th>
+      <th>75.0</th>
+      <th>100.0</th>
+    </tr>
+    <tr>
+      <th>Group</th>
+      <th>CCI</th>
+      <th>CCI</th>
+      <th>CCI</th>
+      <th>CCI</th>
+      <th>CCI</th>
+      <th>Sham</th>
+      <th>Sham</th>
+      <th>Sham</th>
+      <th>Sham</th>
+      <th>Sham</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Bacteria;Proteobacteria</th>
+      <td>1.0</td>
+      <td>8.0</td>
+      <td>27.0</td>
+      <td>57.0</td>
+      <td>209.0</td>
+      <td>1.0</td>
+      <td>25.00</td>
+      <td>45.5</td>
+      <td>90.25</td>
+      <td>245.0</td>
+    </tr>
+    <tr>
+      <th>;</th>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>3.0</td>
+      <td>1.0</td>
+      <td>1.00</td>
+      <td>1.0</td>
+      <td>1.00</td>
+      <td>3.0</td>
+    </tr>
+    <tr>
+      <th>Bacteria;Bacteroidota</th>
+      <td>1087.0</td>
+      <td>2719.0</td>
+      <td>3513.0</td>
+      <td>4321.0</td>
+      <td>7152.0</td>
+      <td>1958.0</td>
+      <td>3106.00</td>
+      <td>3932.5</td>
+      <td>5351.75</td>
+      <td>9037.0</td>
+    </tr>
+    <tr>
+      <th>Bacteria;Firmicutes</th>
+      <td>7369.0</td>
+      <td>13895.0</td>
+      <td>15161.0</td>
+      <td>16615.0</td>
+      <td>21709.0</td>
+      <td>8142.0</td>
+      <td>14323.25</td>
+      <td>16446.5</td>
+      <td>18229.75</td>
+      <td>28654.0</td>
+    </tr>
+    <tr>
+      <th>Bacteria;Actinobacteriota</th>
+      <td>57.0</td>
+      <td>125.0</td>
+      <td>198.0</td>
+      <td>263.0</td>
+      <td>1077.0</td>
+      <td>38.0</td>
+      <td>142.50</td>
+      <td>226.0</td>
+      <td>328.00</td>
+      <td>729.0</td>
+    </tr>
+    <tr>
+      <th>Bacteria;</th>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>6.0</td>
+      <td>18.0</td>
+      <td>73.0</td>
+      <td>1.0</td>
+      <td>4.75</td>
+      <td>9.5</td>
+      <td>39.50</td>
+      <td>106.0</td>
+    </tr>
+    <tr>
+      <th>Bacteria;Verrucomicrobiota</th>
+      <td>1.0</td>
+      <td>104.0</td>
+      <td>251.0</td>
+      <td>504.0</td>
+      <td>963.0</td>
+      <td>1.0</td>
+      <td>92.75</td>
+      <td>276.5</td>
+      <td>522.50</td>
+      <td>996.0</td>
+    </tr>
+  </tbody>
+</table>
+      </div>
+
+      <a href="percent-abundances.tsv" target="_blank" rel="noopener noreferrer" class="btn btn-default">
+        Download table as TSV
+      </a>
+    
+  </div>
+</div>
+
+    </div>
+    <script type="text/javascript">
+      if (window.frameElement) {
+          document.getElementById('q2templatesheader').remove();
+      }
+    </script>
+    
+
+
+
+
+
+<script type="text/javascript">
+  function handleErrors(errors, element, msg) {
+    console.error(errors);
+    msg = msg === undefined ? '' : msg + '<br><br>';
+    var helpMsg = '<p class="alert alert-danger"> \
+                   There was an error loading and rendering the \
+                   visualization.<br><br>' + msg + 'Please \
+                   copy-and-paste the following error messages when \
+                   reporting this error (please be aware that the content \
+                   of your analysis data and/or metadata is included in \
+                   these messages):</p>';
+    var helpMsgDiv = $('<div></div>');
+    helpMsgDiv.append(helpMsg);
+    helpMsgDiv.append('<pre><code>' + errors.join('\n\n') + '</code></pre>');
+    element.replaceWith(helpMsgDiv);
+  }
+  window.onerror = function(error) {
+    handleErrors([error], $('#loading'));
+  };
+</script>
+
+<script id="spec" type="application/json">{"$schema": "https://vega.github.io/schema/vega/v4.json", "width": 300, "height": 300, "data": [{"name": "values", "values": [{"id": ";", "clr": 0.2366373379985811, "W": 1}, {"id": "Bacteria;", "clr": -0.3454119135510463, "W": 0}, {"id": "Bacteria;Actinobacteriota", "clr": 0.14332458085383487, "W": 0}, {"id": "Bacteria;Bacteroidota", "clr": 0.04742297051691491, "W": 0}, {"id": "Bacteria;Firmicutes", "clr": 0.16948589767388444, "W": 0}, {"id": "Bacteria;Proteobacteria", "clr": -0.5319349251102394, "W": 1}, {"id": "Bacteria;Verrucomicrobiota", "clr": 0.28047605161807243, "W": 0}]}], "scales": [{"name": "xScale", "domain": {"data": "values", "field": "clr"}, "range": "width"}, {"name": "yScale", "domain": {"data": "values", "field": "W"}, "range": "height"}], "axes": [{"scale": "xScale", "orient": "bottom", "title": "clr"}, {"scale": "yScale", "orient": "left", "title": "W"}], "marks": [{"type": "symbol", "from": {"data": "values"}, "encode": {"hover": {"fill": {"value": "#FF0000"}, "opacity": {"value": 1}}, "enter": {"x": {"scale": "xScale", "field": "clr"}, "y": {"scale": "yScale", "field": "W"}}, "update": {"fill": {"value": "black"}, "opacity": {"value": 0.3}, "tooltip": {"signal": "{'title': datum['id'], 'clr': datum['clr'], 'W': datum['W']}"}}}}]}</script>
+<script type="text/javascript">
+  $(document).ready(function() {
+    var spec = JSON.parse(document.getElementById('spec').innerHTML);
+
+    // Try and come up with a good initial estimate of plot dimensions,
+    // based on the browser dimensions.
+    var width = $('#plot').width() / 1.5;
+    var opts = {width: width, height: width / 2};
+
+    vegaEmbed('#plot', spec, opts).then(function(result) {
+      result.view.logLevel(vega.Warn);
+      // Stash the view object in global namespace for debugging purposes.
+      // Check out https://vega.github.io/vega/docs/api/debugging/
+      // for more details.
+      window.v = result.view;
+    }).catch(function(error) {
+      // From 'js-error-handler.html'
+      handleErrors([error], $('#plot'));
+    });
+
+    // Clean up the vega-embed toolbar
+    var toolbar = $('div .vega-actions').detach();
+    toolbar.addClass('btn-group');
+    toolbar.children('a').each(function() {
+      // NOTE: We're just skipping this bit until we get the plot working with
+      // Vega 5
+      if(this.innerHTML == "Open in Vega Editor"){
+        this.remove()
+        return true
+      }
+      $(this).addClass('btn btn-default');
+    });
+    $('<a href="data.tsv" target="_blank" rel="noopener noreferrer" class="btn btn-default">Export as TSV</a>')
+      .prependTo(toolbar);
+    toolbar.appendTo('#toolbar');
+
+    // Util to mutate elements in-place
+    function cleanupEl(el, label, form_el) {
+      var e = $(el + ' .vega-bind');
+      e.children('span').replaceWith('<label>' + label + '&nbsp;</label');
+      if (form_el !== undefined) {
+        e.children(form_el).addClass('form-control');
+      }
+    }
+  });
+</script>
+
+
+  </body>
+</html>

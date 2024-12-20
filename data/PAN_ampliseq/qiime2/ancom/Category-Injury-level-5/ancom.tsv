@@ -1,0 +1,46 @@
+	W	Reject null hypothesis
+Bacteria;Actinobacteriota;Coriobacteriia;Coriobacteriales;Atopobiaceae	38	True
+Bacteria;Firmicutes;Clostridia;Oscillospirales;[Eubacterium] coprostanoligenes group	21	False
+Bacteria;Bacteroidota;Bacteroidia;Bacteroidales;Muribaculaceae	12	False
+Bacteria;Actinobacteriota;Actinobacteria;Bifidobacteriales;Bifidobacteriaceae	8	False
+Bacteria;Bacteroidota;Bacteroidia;Bacteroidales;Bacteroidaceae	4	False
+Bacteria;Firmicutes;Clostridia;Oscillospirales;Ruminococcaceae	4	False
+Bacteria;Proteobacteria;Gammaproteobacteria;Burkholderiales;Sutterellaceae	4	False
+Bacteria;Firmicutes;Clostridia;Lachnospirales;	3	False
+Bacteria;Firmicutes;Bacilli;Lactobacillales;Carnobacteriaceae	3	False
+Bacteria;Firmicutes;Clostridia;Eubacteriales;Anaerofustaceae	3	False
+Bacteria;Firmicutes;Clostridia;Lachnospirales;Defluviitaleaceae	3	False
+Bacteria;Actinobacteriota;Coriobacteriia;Coriobacteriales;Coriobacteriales Incertae Sedis	3	False
+;;;;	3	False
+Bacteria;Bacteroidota;Bacteroidia;;	3	False
+Bacteria;Firmicutes;Bacilli;Lactobacillales;	3	False
+Bacteria;Bacteroidota;Bacteroidia;Bacteroidales;Rikenellaceae	3	False
+Bacteria;Firmicutes;Clostridia;Oscillospirales;Oscillospiraceae	3	False
+Bacteria;Firmicutes;Bacilli;Lactobacillales;Lactobacillaceae	3	False
+Bacteria;Firmicutes;Bacilli;Bacillales;Planococcaceae	2	False
+Bacteria;Firmicutes;Clostridia;Oscillospirales;Butyricicoccaceae	2	False
+Bacteria;Bacteroidota;Bacteroidia;Bacteroidales;	2	False
+Bacteria;Firmicutes;Bacilli;Erysipelotrichales;Erysipelotrichaceae	2	False
+Bacteria;Firmicutes;Bacilli;;	2	False
+Bacteria;Firmicutes;Clostridia;Lachnospirales;Lachnospiraceae	2	False
+Bacteria;Verrucomicrobiota;Verrucomicrobiae;Verrucomicrobiales;Akkermansiaceae	2	False
+Bacteria;Firmicutes;Clostridia;Clostridia vadinBB60 group;	2	False
+Bacteria;Firmicutes;Bacilli;Acholeplasmatales;Acholeplasmataceae	1	False
+Bacteria;Firmicutes;Bacilli;Erysipelotrichales;	1	False
+Bacteria;Firmicutes;Bacilli;Lactobacillales;Enterococcaceae	1	False
+Bacteria;Actinobacteriota;Coriobacteriia;Coriobacteriales;Eggerthellaceae	1	False
+Bacteria;Firmicutes;Clostridia;Peptostreptococcales-Tissierellales;Anaerovoracaceae	1	False
+Bacteria;Firmicutes;Clostridia;;	1	False
+Bacteria;Firmicutes;Clostridia;Clostridia UCG-014;	1	False
+Bacteria;Firmicutes;Clostridia;Christensenellales;Christensenellaceae	1	False
+Bacteria;Firmicutes;Bacilli;Erysipelotrichales;Erysipelatoclostridiaceae	1	False
+Bacteria;Firmicutes;Clostridia;Oscillospirales;UCG-010	1	False
+Bacteria;Firmicutes;;;	1	False
+Bacteria;Firmicutes;Clostridia;Monoglobales;Monoglobaceae	1	False
+Bacteria;Firmicutes;Clostridia;Oscillospirales;	1	False
+Bacteria;;;;	0	False
+Bacteria;Firmicutes;Clostridia;Peptococcales;Peptococcaceae	0	False
+Bacteria;Firmicutes;Bacilli;Staphylococcales;Staphylococcaceae	0	False
+Bacteria;Firmicutes;Clostridia;Peptostreptococcales-Tissierellales;Peptostreptococcaceae	0	False
+Bacteria;Firmicutes;Bacilli;RF39;	0	False
+Bacteria;Firmicutes;Clostridia;Clostridiales;Clostridiaceae	0	False

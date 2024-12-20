@@ -1,0 +1,11 @@
+	W	Reject null hypothesis
+Bacteria;Actinobacteriota;Actinobacteria	8	True
+Bacteria;Firmicutes;Bacilli	3	False
+Bacteria;Proteobacteria;Gammaproteobacteria	3	False
+Bacteria;Actinobacteriota;Coriobacteriia	2	False
+Bacteria;Bacteroidota;Bacteroidia	1	False
+Bacteria;Firmicutes;Clostridia	1	False
+Bacteria;;	1	False
+Bacteria;Verrucomicrobiota;Verrucomicrobiae	0	False
+Bacteria;Firmicutes;	0	False
+;;	0	False

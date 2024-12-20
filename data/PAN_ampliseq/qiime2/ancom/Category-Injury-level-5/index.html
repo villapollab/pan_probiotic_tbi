@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>q2_composition : ancom</title>
+    <link rel="stylesheet" href="./q2templateassets/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="./q2templateassets/css/normalize.css"/>
+    <link rel="stylesheet" href="./q2templateassets/css/base-template.css"/>
+    <script src="./q2templateassets/js/jquery-3.2.0.min.js" charset="utf-8"></script>
+    <script src="./q2templateassets/js/bootstrap.min.js" charset="utf-8"></script>
+    
+  <script src="js/vega.min.js"></script>
+  <script src="js/vega-embed.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/spinkit.css">
+
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div id="q2templatesheader" class="row">
+        <div class="col-lg-12">
+          <a href="http://qiime2.org/">
+            <img src="./q2templateassets/img/qiime2-rect-200.png"
+            alt="QIIME 2">
+          </a>
+        </div>
+      </div>
+        
+
+<div class="row">
+  <div class="col-lg-8">
+    <h3>ANCOM Volcano Plot</h3>
+    <div id="toolbar"></div>
+    
+    <div id="plot">
+      <div id="loading" class="spinner">
+        <div class="rect1"></div>
+        <div class="rect2"></div>
+        <div class="rect3"></div>
+        <div class="rect4"></div>
+        <div class="rect5"></div>
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+<hr>
+
+<div class="row">
+  <div class="col-lg-6">
+    <h4>ANCOM statistical results</h4>
+    
+      <div class="table-responsive">
+        <table border="0" class="dataframe table table-striped table-hover">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>W</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Bacteria;Actinobacteriota;Coriobacteriia;Coriobacteriales;Atopobiaceae</th>
+      <td>38</td>
+    </tr>
+  </tbody>
+</table>
+      </div>
+
+      <a href="ancom.tsv" target="_blank" rel="noopener noreferrer" class="btn btn-default">
+        Download table as TSV
+      </a>
+    
+  </div>
+</div>
+
+<hr>
+
+<div class="row">
+  <div class="col-lg-12">
+    <h4>Percentile abundances of features by group</h4>
+    
+      <div class="table-responsive">
+        <table border="0" class="dataframe table table-striped table-hover">
+  <thead>
+    <tr>
+      <th>Percentile</th>
+      <th>0.0</th>
+      <th>25.0</th>
+      <th>50.0</th>
+      <th>75.0</th>
+      <th>100.0</th>
+      <th>0.0</th>
+      <th>25.0</th>
+      <th>50.0</th>
+      <th>75.0</th>
+      <th>100.0</th>
+    </tr>
+    <tr>
+      <th>Group</th>
+      <th>CCI</th>
+      <th>CCI</th>
+      <th>CCI</th>
+      <th>CCI</th>
+      <th>CCI</th>
+      <th>Sham</th>
+      <th>Sham</th>
+      <th>Sham</th>
+      <th>Sham</th>
+      <th>Sham</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Bacteria;Actinobacteriota;Coriobacteriia;Coriobacteriales;Atopobiaceae</th>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>744.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>11.5</td>
+      <td>83.5</td>
+      <td>513.0</td>
+    </tr>
+  </tbody>
+</table>
+      </div>
+
+      <a href="percent-abundances.tsv" target="_blank" rel="noopener noreferrer" class="btn btn-default">
+        Download table as TSV
+      </a>
+    
+  </div>
+</div>
+
+    </div>
+    <script type="text/javascript">
+      if (window.frameElement) {
+          document.getElementById('q2templatesheader').remove();
+      }
+    </script>
+    
+
+
+
+
+
+<script type="text/javascript">
+  function handleErrors(errors, element, msg) {
+    console.error(errors);
+    msg = msg === undefined ? '' : msg + '<br><br>';
+    var helpMsg = '<p class="alert alert-danger"> \
+                   There was an error loading and rendering the \
+                   visualization.<br><br>' + msg + 'Please \
+                   copy-and-paste the following error messages when \
+                   reporting this error (please be aware that the content \
+                   of your analysis data and/or metadata is included in \
+                   these messages):</p>';
+    var helpMsgDiv = $('<div></div>');
+    helpMsgDiv.append(helpMsg);
+    helpMsgDiv.append('<pre><code>' + errors.join('\n\n') + '</code></pre>');
+    element.replaceWith(helpMsgDiv);
+  }
+  window.onerror = function(error) {
+    handleErrors([error], $('#loading'));
+  };
+</script>
+
+<script id="spec" type="application/json">{"$schema": "https://vega.github.io/schema/vega/v4.json", "width": 300, "height": 300, "data": [{"name": "values", "values": [{"id": ";;;;", "clr": -0.14920460551666226, "W": 3}, {"id": "Bacteria;;;;", "clr": 0.432844646032965, "W": 0}, {"id": "Bacteria;Actinobacteriota;Actinobacteria;Bifidobacteriales;Bifidobacteriaceae", "clr": -0.66427939549012, "W": 8}, {"id": "Bacteria;Actinobacteriota;Coriobacteriia;Coriobacteriales;Atopobiaceae", "clr": 1.5383654611923148, "W": 38}, {"id": "Bacteria;Actinobacteriota;Coriobacteriia;Coriobacteriales;Coriobacteriales Incertae Sedis", "clr": -0.18330401174331268, "W": 3}, {"id": "Bacteria;Actinobacteriota;Coriobacteriia;Coriobacteriales;Eggerthellaceae", "clr": -0.051725861111460825, "W": 1}, {"id": "Bacteria;Bacteroidota;Bacteroidia;;", "clr": -0.159341233219366, "W": 3}, {"id": "Bacteria;Bacteroidota;Bacteroidia;Bacteroidales;", "clr": 0.07757358207012421, "W": 2}, {"id": "Bacteria;Bacteroidota;Bacteroidia;Bacteroidales;Bacteroidaceae", "clr": -0.2728335758087512, "W": 4}, {"id": "Bacteria;Bacteroidota;Bacteroidia;Bacteroidales;Muribaculaceae", "clr": 0.15480877547555227, "W": 12}, {"id": "Bacteria;Bacteroidota;Bacteroidia;Bacteroidales;Rikenellaceae", "clr": -0.18602707316131628, "W": 3}, {"id": "Bacteria;Firmicutes;;;", "clr": -0.08959826802682169, "W": 1}, {"id": "Bacteria;Firmicutes;Bacilli;;", "clr": -0.15054550423512403, "W": 2}, {"id": "Bacteria;Firmicutes;Bacilli;Acholeplasmatales;Acholeplasmataceae", "clr": -0.2970885747628945, "W": 1}, {"id": "Bacteria;Firmicutes;Bacilli;Bacillales;Planococcaceae", "clr": -0.1457302221018093, "W": 2}, {"id": "Bacteria;Firmicutes;Bacilli;Erysipelotrichales;", "clr": -0.04829351588604425, "W": 1}, {"id": "Bacteria;Firmicutes;Bacilli;Erysipelotrichales;Erysipelatoclostridiaceae", "clr": -0.1592553540730053, "W": 1}, {"id": "Bacteria;Firmicutes;Bacilli;Erysipelotrichales;Erysipelotrichaceae", "clr": -0.23726042358039834, "W": 2}, {"id": "Bacteria;Firmicutes;Bacilli;Lactobacillales;", "clr": -0.1571364400479589, "W": 3}, {"id": "Bacteria;Firmicutes;Bacilli;Lactobacillales;Carnobacteriaceae", "clr": -0.3196829798332188, "W": 3}, {"id": "Bacteria;Firmicutes;Bacilli;Lactobacillales;Enterococcaceae", "clr": -0.03659172757378615, "W": 1}, {"id": "Bacteria;Firmicutes;Bacilli;Lactobacillales;Lactobacillaceae", "clr": -0.5308165280101491, "W": 3}, {"id": "Bacteria;Firmicutes;Bacilli;RF39;", "clr": 0.47994924966751074, "W": 0}, {"id": "Bacteria;Firmicutes;Bacilli;Staphylococcales;Staphylococcaceae", "clr": 0.29762855691829193, "W": 0}, {"id": "Bacteria;Firmicutes;Clostridia;;", "clr": 0.02277367007446074, "W": 1}, {"id": "Bacteria;Firmicutes;Clostridia;Christensenellales;Christensenellaceae", "clr": 0.2086516322502281, "W": 1}, {"id": "Bacteria;Firmicutes;Clostridia;Clostridia UCG-014;", "clr": 0.017719424481093426, "W": 1}, {"id": "Bacteria;Firmicutes;Clostridia;Clostridia vadinBB60 group;", "clr": -0.20056462269892972, "W": 2}, {"id": "Bacteria;Firmicutes;Clostridia;Clostridiales;Clostridiaceae", "clr": 0.4730864911863819, "W": 0}, {"id": "Bacteria;Firmicutes;Clostridia;Eubacteriales;Anaerofustaceae", "clr": -0.18704014255437507, "W": 3}, {"id": "Bacteria;Firmicutes;Clostridia;Lachnospirales;", "clr": -0.13080584909811677, "W": 3}, {"id": "Bacteria;Firmicutes;Clostridia;Lachnospirales;Defluviitaleaceae", "clr": -0.40661493169520346, "W": 3}, {"id": "Bacteria;Firmicutes;Clostridia;Lachnospirales;Lachnospiraceae", "clr": 0.03690404539702907, "W": 2}, {"id": "Bacteria;Firmicutes;Clostridia;Monoglobales;Monoglobaceae", "clr": -0.24014293915602763, "W": 1}, {"id": "Bacteria;Firmicutes;Clostridia;Oscillospirales;", "clr": -0.09376264597443384, "W": 1}, {"id": "Bacteria;Firmicutes;Clostridia;Oscillospirales;Butyricicoccaceae", "clr": -0.2031058806704356, "W": 2}, {"id": "Bacteria;Firmicutes;Clostridia;Oscillospirales;Oscillospiraceae", "clr": 0.1007742624073118, "W": 3}, {"id": "Bacteria;Firmicutes;Clostridia;Oscillospirales;Ruminococcaceae", "clr": -0.1800833334708396, "W": 4}, {"id": "Bacteria;Firmicutes;Clostridia;Oscillospirales;UCG-010", "clr": 0.15192233561367519, "W": 1}, {"id": "Bacteria;Firmicutes;Clostridia;Oscillospirales;[Eubacterium] coprostanoligenes group", "clr": 0.837872519548895, "W": 21}, {"id": "Bacteria;Firmicutes;Clostridia;Peptococcales;Peptococcaceae", "clr": 0.25302920945985363, "W": 0}, {"id": "Bacteria;Firmicutes;Clostridia;Peptostreptococcales-Tissierellales;Anaerovoracaceae", "clr": 0.1015497733357765, "W": 1}, {"id": "Bacteria;Firmicutes;Clostridia;Peptostreptococcales-Tissierellales;Peptostreptococcaceae", "clr": -0.13094233406687605, "W": 0}, {"id": "Bacteria;Proteobacteria;Gammaproteobacteria;Burkholderiales;Sutterellaceae", "clr": 0.6193676575921583, "W": 4}, {"id": "Bacteria;Verrucomicrobiota;Verrucomicrobiae;Verrucomicrobiales;Akkermansiaceae", "clr": -0.1930433191361538, "W": 2}]}], "scales": [{"name": "xScale", "domain": {"data": "values", "field": "clr"}, "range": "width"}, {"name": "yScale", "domain": {"data": "values", "field": "W"}, "range": "height"}], "axes": [{"scale": "xScale", "orient": "bottom", "title": "clr"}, {"scale": "yScale", "orient": "left", "title": "W"}], "marks": [{"type": "symbol", "from": {"data": "values"}, "encode": {"hover": {"fill": {"value": "#FF0000"}, "opacity": {"value": 1}}, "enter": {"x": {"scale": "xScale", "field": "clr"}, "y": {"scale": "yScale", "field": "W"}}, "update": {"fill": {"value": "black"}, "opacity": {"value": 0.3}, "tooltip": {"signal": "{'title': datum['id'], 'clr': datum['clr'], 'W': datum['W']}"}}}}]}</script>
+<script type="text/javascript">
+  $(document).ready(function() {
+    var spec = JSON.parse(document.getElementById('spec').innerHTML);
+
+    // Try and come up with a good initial estimate of plot dimensions,
+    // based on the browser dimensions.
+    var width = $('#plot').width() / 1.5;
+    var opts = {width: width, height: width / 2};
+
+    vegaEmbed('#plot', spec, opts).then(function(result) {
+      result.view.logLevel(vega.Warn);
+      // Stash the view object in global namespace for debugging purposes.
+      // Check out https://vega.github.io/vega/docs/api/debugging/
+      // for more details.
+      window.v = result.view;
+    }).catch(function(error) {
+      // From 'js-error-handler.html'
+      handleErrors([error], $('#plot'));
+    });
+
+    // Clean up the vega-embed toolbar
+    var toolbar = $('div .vega-actions').detach();
+    toolbar.addClass('btn-group');
+    toolbar.children('a').each(function() {
+      // NOTE: We're just skipping this bit until we get the plot working with
+      // Vega 5
+      if(this.innerHTML == "Open in Vega Editor"){
+        this.remove()
+        return true
+      }
+      $(this).addClass('btn btn-default');
+    });
+    $('<a href="data.tsv" target="_blank" rel="noopener noreferrer" class="btn btn-default">Export as TSV</a>')
+      .prependTo(toolbar);
+    toolbar.appendTo('#toolbar');
+
+    // Util to mutate elements in-place
+    function cleanupEl(el, label, form_el) {
+      var e = $(el + ' .vega-bind');
+      e.children('span').replaceWith('<label>' + label + '&nbsp;</label');
+      if (form_el !== undefined) {
+        e.children(form_el).addClass('form-control');
+      }
+    }
+  });
+</script>
+
+
+  </body>
+</html>

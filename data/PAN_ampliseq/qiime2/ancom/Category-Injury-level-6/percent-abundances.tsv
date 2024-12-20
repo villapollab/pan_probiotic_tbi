@@ -1,0 +1,100 @@
+Percentile	0.0	25.0	50.0	75.0	100.0	0.0	25.0	50.0	75.0	100.0
+Group	CCI	CCI	CCI	CCI	CCI	Sham	Sham	Sham	Sham	Sham
+Bacteria;Bacteroidota;Bacteroidia;Bacteroidales;Muribaculaceae;	694.0	1618.0	2058.0	2678.0	5340.0	1378.0	1945.0	2419.0	3480.0	7786.0
+Bacteria;Firmicutes;Bacilli;RF39;;	1.0	7.0	21.0	45.0	165.0	1.0	15.0	31.5	54.25	212.0
+Bacteria;Firmicutes;Bacilli;Lactobacillales;Lactobacillaceae;Limosilactobacillus	1.0	1.0	1.0	22.0	113.0	1.0	1.0	1.0	13.5	93.0
+Bacteria;Firmicutes;Clostridia;Lachnospirales;Lachnospiraceae;Blautia	1.0	1.0	1.0	15.0	121.0	1.0	1.0	7.0	32.25	291.0
+Bacteria;Firmicutes;Bacilli;Erysipelotrichales;Erysipelotrichaceae;Dubosiella	5.0	498.0	905.0	2541.0	7884.0	1.0	45.75	390.0	904.0	3461.0
+Bacteria;Firmicutes;Clostridia;Oscillospirales;Oscillospiraceae;Oscillibacter	17.0	51.0	81.0	106.0	265.0	23.0	65.0	95.0	147.25	322.0
+Bacteria;Firmicutes;Bacilli;Erysipelotrichales;Erysipelotrichaceae;Turicibacter	203.0	814.0	1086.0	1507.0	3205.0	73.0	353.25	702.0	1122.0	3216.0
+Bacteria;Firmicutes;Bacilli;Lactobacillales;Lactobacillaceae;Lactobacillus	42.0	1863.0	2743.0	3865.0	11354.0	39.0	830.5	2249.5	3967.0	10321.0
+Bacteria;Bacteroidota;Bacteroidia;Bacteroidales;Bacteroidaceae;Bacteroides	90.0	351.0	496.0	753.0	2033.0	129.0	328.5	415.0	622.0	1241.0
+Bacteria;Actinobacteriota;Coriobacteriia;Coriobacteriales;Eggerthellaceae;Enterorhabdus	18.0	59.0	81.0	105.0	164.0	27.0	61.0	88.5	115.0	176.0
+Bacteria;Firmicutes;Clostridia;Lachnospirales;Lachnospiraceae;Acetatifactor	2.0	26.0	40.0	64.0	255.0	7.0	31.25	49.5	90.25	158.0
+Bacteria;Firmicutes;Clostridia;Oscillospirales;Oscillospiraceae;	59.0	155.0	200.0	270.0	948.0	49.0	138.5	271.5	443.75	895.0
+Bacteria;Firmicutes;Clostridia;Lachnospirales;Lachnospiraceae;	100.0	329.0	475.0	730.0	1808.0	72.0	265.0	739.5	1075.75	2330.0
+Bacteria;Firmicutes;Clostridia;Lachnospirales;Lachnospiraceae;Lachnoclostridium	5.0	61.0	92.0	137.0	369.0	1.0	59.25	118.0	206.0	826.0
+Bacteria;Firmicutes;Clostridia;Oscillospirales;Ruminococcaceae;	9.0	36.0	59.0	89.0	290.0	8.0	31.0	50.5	76.25	232.0
+Bacteria;Firmicutes;Clostridia;Lachnospirales;Lachnospiraceae;Lachnospiraceae NK4A136 group	268.0	806.0	1193.0	1770.0	3328.0	356.0	691.25	1544.5	2398.0	3999.0
+Bacteria;Firmicutes;Clostridia;Peptostreptococcales-Tissierellales;Anaerovoracaceae;[Eubacterium] nodatum group	1.0	6.0	9.0	12.0	28.0	1.0	5.0	9.5	13.75	28.0
+Bacteria;Firmicutes;Clostridia;Oscillospirales;Oscillospiraceae;Colidextribacter	8.0	32.0	52.0	65.0	172.0	8.0	33.75	63.5	104.25	227.0
+Bacteria;Firmicutes;Bacilli;Erysipelotrichales;Erysipelotrichaceae;Faecalibaculum	1.0	1256.0	4055.0	5942.0	9440.0	1.0	3590.0	5188.5	6903.75	11729.0
+Bacteria;Firmicutes;Clostridia;Clostridia UCG-014;;	10.0	72.0	130.0	288.0	760.0	16.0	74.5	171.0	320.0	925.0
+Bacteria;Firmicutes;Clostridia;Peptococcales;Peptococcaceae;	1.0	1.0	6.0	9.0	23.0	1.0	4.75	8.0	13.5	23.0
+Bacteria;Firmicutes;Clostridia;Lachnospirales;Lachnospiraceae;Lachnospiraceae UCG-001	1.0	6.0	40.0	192.0	2592.0	1.0	25.5	69.5	284.75	3086.0
+Bacteria;Bacteroidota;Bacteroidia;Bacteroidales;Rikenellaceae;Alistipes	277.0	598.0	805.0	1043.0	1754.0	200.0	528.25	776.0	1076.0	1733.0
+Bacteria;Firmicutes;Clostridia;Clostridiales;Clostridiaceae;Clostridium sensu stricto 1	1.0	10.0	45.0	203.0	498.0	1.0	14.0	127.5	312.5	1120.0
+Bacteria;Firmicutes;Clostridia;Oscillospirales;Ruminococcaceae;Anaerotruncus	1.0	1.0	4.0	9.0	42.0	1.0	1.0	7.0	17.0	47.0
+Bacteria;Firmicutes;Clostridia;Lachnospirales;;	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	2.0
+Bacteria;Firmicutes;Clostridia;Lachnospirales;Lachnospiraceae;[Eubacterium] xylanophilum group	1.0	105.0	219.0	318.0	801.0	30.0	100.0	162.0	316.75	848.0
+Bacteria;;;;;	1.0	1.0	6.0	18.0	73.0	1.0	4.75	9.5	39.5	106.0
+Bacteria;Firmicutes;Clostridia;Oscillospirales;Oscillospiraceae;UCG-003	1.0	1.0	1.0	1.0	4.0	1.0	1.0	1.0	1.0	1.0
+Bacteria;Firmicutes;Clostridia;Oscillospirales;Oscillospiraceae;Intestinimonas	1.0	5.0	10.0	20.0	61.0	1.0	6.0	9.0	21.5	54.0
+Bacteria;Firmicutes;Clostridia;Clostridia vadinBB60 group;;	32.0	88.0	132.0	177.0	364.0	28.0	91.5	122.5	186.0	285.0
+Bacteria;Firmicutes;Bacilli;Lactobacillales;Lactobacillaceae;HT002	1.0	1.0	1.0	29.0	485.0	1.0	1.0	1.0	21.25	247.0
+Bacteria;Firmicutes;Clostridia;Oscillospirales;;	1.0	1.0	1.0	1.0	3.0	1.0	1.0	1.0	1.0	4.0
+Bacteria;Verrucomicrobiota;Verrucomicrobiae;Verrucomicrobiales;Akkermansiaceae;Akkermansia	1.0	104.0	251.0	504.0	963.0	1.0	92.75	276.5	522.5	996.0
+Bacteria;Firmicutes;Clostridia;Monoglobales;Monoglobaceae;Monoglobus	1.0	13.0	26.0	42.0	89.0	1.0	13.25	22.5	40.25	236.0
+Bacteria;Firmicutes;Clostridia;Lachnospirales;Lachnospiraceae;Roseburia	8.0	67.0	95.0	181.0	685.0	18.0	73.25	114.5	245.75	810.0
+Bacteria;Firmicutes;;;;	1.0	1.0	1.0	2.0	34.0	1.0	1.0	1.0	2.0	53.0
+Bacteria;Firmicutes;Clostridia;Oscillospirales;Ruminococcaceae;Ruminococcus	1.0	35.0	74.0	123.0	360.0	1.0	45.25	74.5	121.5	279.0
+Bacteria;Firmicutes;Clostridia;Lachnospirales;Lachnospiraceae;Marvinbryantia	1.0	10.0	22.0	35.0	220.0	1.0	14.5	24.0	36.5	199.0
+Bacteria;Firmicutes;Clostridia;Oscillospirales;Ruminococcaceae;Incertae Sedis	50.0	123.0	189.0	259.0	879.0	25.0	98.0	178.0	349.5	1048.0
+Bacteria;Firmicutes;Bacilli;;;	1.0	1.0	1.0	2.0	6.0	1.0	1.0	1.0	2.0	10.0
+Bacteria;Bacteroidota;Bacteroidia;;;	1.0	1.0	1.0	1.0	3.0	1.0	1.0	1.0	1.0	2.0
+Bacteria;Proteobacteria;Gammaproteobacteria;Burkholderiales;Sutterellaceae;Parasutterella	1.0	8.0	27.0	57.0	209.0	1.0	25.0	45.5	90.25	245.0
+Bacteria;Firmicutes;Bacilli;Erysipelotrichales;Erysipelotrichaceae;Ileibacterium	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	95.75	5785.0
+Bacteria;Firmicutes;Clostridia;Lachnospirales;Lachnospiraceae;[Eubacterium] ventriosum group	1.0	166.0	250.0	361.0	796.0	72.0	166.5	225.0	287.25	630.0
+Bacteria;Bacteroidota;Bacteroidia;Bacteroidales;;	1.0	1.0	1.0	1.0	3.0	1.0	1.0	1.0	1.0	23.0
+Bacteria;Firmicutes;Clostridia;Peptostreptococcales-Tissierellales;Peptostreptococcaceae;Romboutsia	1.0	87.0	192.0	374.0	664.0	1.0	23.25	348.0	631.75	1397.0
+Bacteria;Firmicutes;Clostridia;Peptostreptococcales-Tissierellales;Anaerovoracaceae;Family XIII UCG-001	1.0	1.0	7.0	14.0	59.0	1.0	4.0	11.0	19.5	42.0
+Bacteria;Firmicutes;Clostridia;Lachnospirales;Lachnospiraceae;A2	8.0	56.0	93.0	133.0	641.0	1.0	47.75	161.5	231.5	816.0
+Bacteria;Firmicutes;Clostridia;Oscillospirales;UCG-010;	1.0	5.0	8.0	11.0	23.0	1.0	7.75	11.0	14.0	27.0
+Bacteria;Firmicutes;Bacilli;Lactobacillales;Lactobacillaceae;Lacticaseibacillus	1.0	1.0	1.0	23.0	97.0	1.0	1.0	3.5	27.5	70.0
+Bacteria;Firmicutes;Bacilli;Erysipelotrichales;Erysipelotrichaceae;	1.0	1.0	5.0	9.0	43.0	1.0	1.0	6.5	11.0	83.0
+Bacteria;Actinobacteriota;Coriobacteriia;Coriobacteriales;Eggerthellaceae;Asaccharobacter	1.0	1.0	1.0	1.0	5.0	1.0	1.0	1.0	1.0	1.0
+Bacteria;Firmicutes;Bacilli;Erysipelotrichales;Erysipelatoclostridiaceae;	1.0	1.0	4.0	6.0	14.0	1.0	1.0	1.0	5.0	14.0
+Bacteria;Firmicutes;Clostridia;Lachnospirales;Lachnospiraceae;Tuzzerella	1.0	4.0	9.0	14.0	33.0	1.0	1.0	4.0	10.0	26.0
+Bacteria;Actinobacteriota;Actinobacteria;Bifidobacteriales;Bifidobacteriaceae;Bifidobacterium	11.0	65.0	107.0	160.0	410.0	1.0	21.75	92.0	133.5	618.0
+Bacteria;Firmicutes;Clostridia;;;	1.0	1.0	1.0	1.0	5.0	1.0	1.0	1.0	1.25	10.0
+Bacteria;Firmicutes;Clostridia;Christensenellales;Christensenellaceae;	1.0	1.0	1.0	6.0	17.0	1.0	1.0	5.0	8.25	20.0
+Bacteria;Firmicutes;Bacilli;Erysipelotrichales;Erysipelatoclostridiaceae;Erysipelatoclostridium	1.0	4.0	9.0	24.0	119.0	1.0	5.0	12.5	18.25	67.0
+Bacteria;Firmicutes;Clostridia;Peptostreptococcales-Tissierellales;Anaerovoracaceae;[Eubacterium] brachy group	1.0	1.0	1.0	5.0	24.0	1.0	1.0	4.0	7.0	19.0
+;;;;;	1.0	1.0	1.0	1.0	3.0	1.0	1.0	1.0	1.0	3.0
+Bacteria;Firmicutes;Clostridia;Lachnospirales;Lachnospiraceae;Lachnospiraceae UCG-006	1.0	23.0	35.0	63.0	170.0	1.0	27.25	54.5	74.0	253.0
+Bacteria;Firmicutes;Clostridia;Lachnospirales;Lachnospiraceae;Lachnospiraceae FCS020 group	1.0	1.0	6.0	11.0	48.0	1.0	1.0	7.0	11.0	18.0
+Bacteria;Firmicutes;Clostridia;Lachnospirales;Lachnospiraceae;[Eubacterium] oxidoreducens group	1.0	1.0	1.0	1.0	5.0	1.0	1.0	1.0	1.0	3.0
+Bacteria;Firmicutes;Bacilli;Lactobacillales;Lactobacillaceae;	1.0	1.0	1.0	1.0	28.0	1.0	1.0	1.0	1.0	14.0
+Bacteria;Firmicutes;Clostridia;Peptostreptococcales-Tissierellales;Anaerovoracaceae;Family XIII AD3011 group	1.0	1.0	1.0	5.0	15.0	1.0	1.0	1.0	5.0	9.0
+Bacteria;Firmicutes;Clostridia;Lachnospirales;Lachnospiraceae;Dorea	1.0	1.0	1.0	1.0	13.0	1.0	1.0	1.0	1.0	44.0
+Bacteria;Firmicutes;Bacilli;Acholeplasmatales;Acholeplasmataceae;Anaeroplasma	1.0	19.0	52.0	142.0	512.0	1.0	11.0	44.0	96.5	335.0
+Bacteria;Actinobacteriota;Coriobacteriia;Coriobacteriales;Coriobacteriales Incertae Sedis;	1.0	1.0	1.0	1.0	5.0	1.0	1.0	1.0	1.0	1.0
+Bacteria;Firmicutes;Clostridia;Lachnospirales;Lachnospiraceae;ASF356	1.0	1.0	7.0	19.0	115.0	1.0	6.0	15.5	31.75	118.0
+Bacteria;Firmicutes;Clostridia;Oscillospirales;Oscillospiraceae;NK4A214 group	1.0	1.0	1.0	5.0	10.0	1.0	1.0	1.0	5.0	11.0
+Bacteria;Firmicutes;Bacilli;Lactobacillales;Lactobacillaceae;Lactiplantibacillus	1.0	1.0	1.0	38.0	235.0	1.0	1.0	2.0	34.75	482.0
+Bacteria;Firmicutes;Clostridia;Lachnospirales;Lachnospiraceae;GCA-900066575	1.0	21.0	29.0	47.0	164.0	1.0	23.75	42.5	65.25	108.0
+Bacteria;Actinobacteriota;Coriobacteriia;Coriobacteriales;Eggerthellaceae;	1.0	1.0	1.0	1.0	3.0	1.0	1.0	1.0	1.0	23.0
+Bacteria;Firmicutes;Clostridia;Lachnospirales;Defluviitaleaceae;Defluviitaleaceae UCG-011	1.0	1.0	4.0	8.0	32.0	1.0	1.0	1.0	6.0	15.0
+Bacteria;Firmicutes;Bacilli;Lactobacillales;Enterococcaceae;Enterococcus	1.0	1.0	1.0	1.0	6.0	1.0	1.0	1.0	1.0	21.0
+Bacteria;Firmicutes;Clostridia;Oscillospirales;Oscillospiraceae;UCG-005	1.0	1.0	7.0	11.0	43.0	1.0	4.75	9.0	16.75	42.0
+Bacteria;Firmicutes;Bacilli;Staphylococcales;Staphylococcaceae;Staphylococcus	1.0	1.0	1.0	1.0	187.0	1.0	1.0	1.0	1.0	230.0
+Bacteria;Firmicutes;Clostridia;Oscillospirales;Ruminococcaceae;Candidatus Soleaferrea	1.0	1.0	1.0	1.0	2.0	1.0	1.0	1.0	1.0	3.0
+Bacteria;Firmicutes;Clostridia;Peptostreptococcales-Tissierellales;Peptostreptococcaceae;	1.0	1.0	1.0	1.0	5.0	1.0	1.0	1.0	1.0	4.0
+Bacteria;Firmicutes;Clostridia;Oscillospirales;Ruminococcaceae;Harryflintia	1.0	1.0	1.0	3.0	12.0	1.0	1.0	1.0	3.25	7.0
+Bacteria;Firmicutes;Clostridia;Lachnospirales;Lachnospiraceae;Lachnospiraceae UCG-008	1.0	1.0	1.0	1.0	3.0	1.0	1.0	1.0	1.0	1.0
+Bacteria;Firmicutes;Bacilli;Bacillales;Planococcaceae;Sporosarcina	1.0	1.0	1.0	1.0	12.0	1.0	1.0	1.0	1.0	11.0
+Bacteria;Firmicutes;Clostridia;Oscillospirales;Butyricicoccaceae;UCG-009	1.0	15.0	22.0	31.0	58.0	1.0	14.0	24.5	33.75	57.0
+Bacteria;Firmicutes;Bacilli;Erysipelotrichales;Erysipelatoclostridiaceae;Candidatus Stoquefichus	1.0	1.0	1.0	1.0	3.0	1.0	1.0	1.0	1.0	1.0
+Bacteria;Firmicutes;Clostridia;Eubacteriales;Anaerofustaceae;Anaerofustis	1.0	1.0	1.0	1.0	5.0	1.0	1.0	1.0	1.0	1.0
+Bacteria;Bacteroidota;Bacteroidia;Bacteroidales;Muribaculaceae;Muribaculum	1.0	1.0	1.0	1.0	15.0	1.0	1.0	1.0	1.0	46.0
+Bacteria;Firmicutes;Bacilli;Lactobacillales;Carnobacteriaceae;Atopostipes	1.0	1.0	1.0	1.0	608.0	1.0	1.0	1.0	1.0	1.0
+Bacteria;Actinobacteriota;Coriobacteriia;Coriobacteriales;Atopobiaceae;Coriobacteriaceae UCG-002	1.0	1.0	1.0	1.0	744.0	1.0	1.0	11.5	83.5	513.0
+Bacteria;Firmicutes;Clostridia;Oscillospirales;[Eubacterium] coprostanoligenes group;	1.0	9.0	26.0	83.0	237.0	3.0	33.75	61.0	121.0	475.0
+Bacteria;Firmicutes;Bacilli;Erysipelotrichales;;	1.0	1.0	1.0	1.0	3.0	1.0	1.0	1.0	1.0	4.0
+Bacteria;Firmicutes;Clostridia;Oscillospirales;Ruminococcaceae;Paludicola	1.0	1.0	1.0	1.0	22.0	1.0	1.0	1.0	1.0	5.0
+Bacteria;Firmicutes;Clostridia;Oscillospirales;Butyricicoccaceae;Butyricicoccus	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	7.0
+Bacteria;Firmicutes;Clostridia;Clostridiales;Clostridiaceae;	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	2.0
+Bacteria;Actinobacteriota;Coriobacteriia;Coriobacteriales;Eggerthellaceae;Parvibacter	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	5.0
+Bacteria;Firmicutes;Bacilli;Lactobacillales;;	1.0	1.0	1.0	1.0	2.0	1.0	1.0	1.0	1.0	1.0
+Bacteria;Firmicutes;Clostridia;Lachnospirales;Lachnospiraceae;Acetitomaculum	1.0	1.0	1.0	1.0	7.0	1.0	1.0	1.0	1.0	10.0
+Bacteria;Firmicutes;Clostridia;Lachnospirales;Lachnospiraceae;[Ruminococcus] gauvreauii group	1.0	1.0	1.0	1.0	3.0	1.0	1.0	1.0	1.0	1.0

@@ -51,10 +51,10 @@ library(ggsci)
 ## Read files
 ```{r}
 # Load data from nf-core ampliseq
-raw_physeq <- readRDS("data/PAN_ampliseq_orig/phyloseq/dada2_phyloseq.rds")
+raw_physeq <- readRDS("data/PAN_ampliseq/phyloseq/dada2_phyloseq.rds")
 
 # Now we read in the phylo tree computed by qiime2
-tree <- read.tree("data/PAN_ampliseq_orig/qiime2/phylogenetic_tree/tree.nwk")
+tree <- read.tree("data/PAN_ampliseq/qiime2/phylogenetic_tree/tree.nwk")
 
 # And add it to our phyloseq object
 physeq <- merge_phyloseq(raw_physeq, phy_tree(tree))
